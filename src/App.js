@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from "./components/navbar/navbar";
+import Home from "./pages/home/home";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             </style>
         </head>
       <Navbar />
+        <Home />
     </div>
   );
 }

@@ -1,0 +1,21 @@
+.button-circle{
+    border: 2px solid;
+    border-radius: 100px;
+    height: 40px;
+    position: relative;
+}
+
+.btn-text{
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+
+.hard-center{
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
