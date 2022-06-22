@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "SF-bold";
+  src: local("SF-bold"),
+    url("./fonts/SF-Pro-Display-Bold.otf") format("opentype") ;
+}
+
+@font-face {
+  font-family: "SF-regular";
+  src: local("SF-regular"),
+  url("./fonts/SF-Pro-Text-Regular.otf") format("opentype") ;
+}

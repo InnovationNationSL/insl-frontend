@@ -3,6 +3,7 @@
     border-radius: 100px;
     height: 40px;
     position: relative;
+    font-family: SF-regular;
 }
 
 .btn-text{
@@ -13,6 +14,7 @@
 
 .hard-center{
     margin: 0;
+    width: 100%;
     position: absolute;
     top: 45%;
     left: 50%;

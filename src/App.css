@@ -2,6 +2,12 @@
   background-color: #61dafb;
 }
 
+.text-normal{
+  font-family: SF-regular;
+  font-size: 15px;
+
+}
+
 .App {
   text-align: center;
 }
