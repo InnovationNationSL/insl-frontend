@@ -1,6 +1,6 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import "./buttonCircle.css";
-import button from "bootstrap/js/src/button";
+
 
 //props: text, size
 const ButtonCircle = (props) =>{

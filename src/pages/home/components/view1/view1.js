@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import "./view1.css";
 import atlasIcon from "./icon.png";
 import ButtonCircle from "../../../../components/buttonCircle/buttonCircle";
@@ -16,7 +16,7 @@ const View1 = () =>{
             </div>
 
             <div className={"col-md-6"}>
-                <img src={atlasIcon} className={"atlasIcon"}/>
+                <img src={atlasIcon} className={"atlasIcon"} alt={"Official icon of the year"}/>
             </div>
         </div>
     )
