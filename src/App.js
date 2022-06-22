@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Navbar from "./components/navbar/navbar";
 import Home from "./pages/home/home";
@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="">
         <head>
+            <title>INSL | 2022 | Web Portal</title>
             <style>
                 <link
                     rel="stylesheet"

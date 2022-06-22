@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import "./home.css";
 import View1 from "./components/view1/view1";
 
