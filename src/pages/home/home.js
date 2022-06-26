@@ -13,7 +13,9 @@ const Home = () => {
     setIsOpen(!isOpen);
   }
   return (
-    <div className={"home-bg"}>
+    <div className={""}>
+
+        <div className={"home-bg"} />
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <View1 />
