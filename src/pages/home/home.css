@@ -1,7 +1,21 @@
 .viewtype-1{
     height: 90vh;
+    color: white;
+}
+
+.viewtype-2{
+    height: 90vh;
+    color: white;
+}
+
+.dark-overlay{
+    background-color: rgba(0,0,0,0.3);
 }
 
 .atlasIcon{
     width: 45vw;
+}
+
+.home-bg{
+    background-image: radial-gradient(#094f0d, #052c10);
 }
