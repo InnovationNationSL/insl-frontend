@@ -2,25 +2,66 @@ import React from "react";
 import "./view2.css";
 import atlasIcon from "./icon.png";
 import ButtonCircle from "../../../../components/buttonCircle/buttonCircle";
+import LogoWhite from "../../../../images/logo-white-01.svg";
+import Industry from "../../../../images/Icon awesome-industry.png";
+import LightBlub from "../../../../images/Icon awesome-lightbulb.png";
 
 const View2 = () =>{
     return(
         <div className={"viewtype-2 viewtype-dark d-flex"}>
             <div className={"col-md-6 my-auto"}>
                 <div className={"col-md-6 mx-auto my-auto"}>
-                    <p className={"view1-title"}>Welcome to IEEE Innovation Nation Sri Lanka</p>
-                    <p className={"text-normal"}>The excellence of guidance, mentorship and finances to take your idea or
-                        product to the next level.</p>
-                    <ButtonCircle text={"Join as a partner"} size={"col-md-8"}/>
+                    <img src={LogoWhite} alt={"INSL White Logo"} />
                 </div>
             </div>
 
             <div className={"col-md-6 my-auto"}>
-                <div className={"col-md-6 mx-auto my-auto"}>
+                <div className={"col-md-8 mx-auto my-auto"}>
                     <p className={"view1-title"}>Why you should be a part of INSL</p>
-                    <p className={"text-normal"}>The excellence of guidance, mentorship and finances to take your idea or
-                        product to the next level.</p>
-                    <ButtonCircle text={"Join as a partner"} size={"col-md-8"}/>
+
+                    <div class={"view2-info"}>
+                        <div className={"d-flex view2-info-dat"}>
+                            <div className={"col-md-2"}>
+                                <div className={"mx-auto my-auto"}>
+                                    <img className={"mx-auto"} src={Industry} alt={"Industry icon"} />
+                                </div>
+
+                            </div>
+                            <div className={"col-md-11"}>
+                                <div>
+                                    <p className={"viewtype-subtitle"}>Economic Potency</p>
+                                </div>
+                                <div>
+                                    <p>Be a part of Innovation Nation Sri Lanka 2021 in order to contribute towards the
+                                        economic dynamism by spurring innovation</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div className={"d-flex"}>
+                            <div className={"col-md-2"}>
+                                <div className={"mx-auto"}>
+                                    <img src={LightBlub} alt={"Industry icon"} />
+                                </div>
+                            </div>
+                            <div className={"col-md-11"}>
+                                <div>
+                                    <p className={"viewtype-subtitle"}>Innovativeness</p>
+                                </div>
+                                <div>
+                                    <p>It will be a platform for new entrepreneurs to bring new ideas to the table, much
+                                        needed to stir innovation and generate competition.</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
         </div>

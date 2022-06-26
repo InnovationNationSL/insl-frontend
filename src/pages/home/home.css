@@ -8,6 +8,19 @@
     color: white;
 }
 
+.view1-title{
+    font-family: SF-bold;
+    font-size: 60px;
+    line-height: 3.5rem;
+}
+
+.viewtype-subtitle{
+    font-family: SF-bold;
+    font-size: 30px;
+    line-height: 2.5rem;
+    margin-bottom: 0px;
+}
+
 .dark-overlay{
     background-color: rgba(0,0,0,0.3);
 }
