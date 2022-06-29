@@ -28,14 +28,14 @@ const Navbar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about">About</NavLinks>
+              <NavLinks to="about">ABOUT</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinksR to="/hustleStory">Hustle Story</NavLinksR>
+              <NavLinksR to="/hustleStory">HUSTLE STORY</NavLinksR>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/register">Register</NavBtnLink>
+            <NavBtnLink to="/register">JOIN INSL COMMUNITY</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
