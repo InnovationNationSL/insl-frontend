@@ -5,6 +5,7 @@ import Navbar from "../../components/Navbar/navbar";
 import "./home.css";
 import View1 from "./components/view1/view1";
 import View2 from "./components/view2/view2";
+import View4 from "./components/view4/view4";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,6 +23,8 @@ const Home = () => {
 
         <div className={"dark-overlay"}>
             <View2 />
+
+            <View4 />
         </div>
     </div>
    
