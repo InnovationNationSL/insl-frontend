@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import Sidebar from "../../components/Sidebar/Sidebar";
-import Navbar from "../../components/Navbar/Navbar";
+import Navbar from "../../components/Navbar/navbar";
 
 import "./home.css";
 import View1 from "./components/view1/view1";
+import View2 from "./components/view2/view2";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,15 +14,17 @@ const Home = () => {
   }
   return (
     <div>
-      <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Navbar toggle={toggle} />
+      <div className={"home-bg"} />
+        <Sidebar isOpen={isOpen} toggle={toggle} />
+        <Navbar toggle={toggle} />
 
-      <View1 />
+        <View1 />
 
-      <div className={"dark-overlay"}>
-          <View2 />
-      </div>
+        <div className={"dark-overlay"}>
+            <View2 />
+        </div>
     </div>
+   
   );
 };
 
