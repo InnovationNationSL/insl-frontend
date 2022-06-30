@@ -14,14 +14,15 @@ const Home = () => {
   }
   return (
     <div className={""}>
-
-        <div className={"home-bg"} />
+      <div className={"home-bg"} />
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
+
       <View1 />
-        <div className={"dark-overlay"}>
-            <View2 />
-        </div>
+
+      <div className={"dark-overlay"}>
+          <View2 />
+      </div>
     </div>
   );
 };
