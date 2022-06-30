@@ -35,7 +35,7 @@ const Navbar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/register">Register</NavBtnLink>
+            <NavBtnLink to="/register">JOIN INSL COMMUNITY</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

@@ -6,6 +6,7 @@ import "./home.css";
 import View1 from "./components/view1/view1";
 import View2 from "./components/view2/view2";
 
+import View3 from "./components/view3/View3";
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -15,16 +16,16 @@ const Home = () => {
   return (
     <div>
       <div className={"home-bg"} />
-        <Sidebar isOpen={isOpen} toggle={toggle} />
-        <Navbar toggle={toggle} />
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Navbar toggle={toggle} />
 
-        <View1 />
+      <View1 />
 
-        <div className={"dark-overlay"}>
-            <View2 />
-        </div>
+      <div className={"dark-overlay"}>
+        <View2 />
+      </div>
+      <View3 />
     </div>
-   
   );
 };
 
