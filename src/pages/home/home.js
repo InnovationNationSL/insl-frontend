@@ -4,7 +4,6 @@ import Navbar from "../../components/Navbar/Navbar";
 
 import "./home.css";
 import View1 from "./components/view1/view1";
-import View2 from "./components/view2/view2";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,8 +12,7 @@ const Home = () => {
     setIsOpen(!isOpen);
   }
   return (
-    <div className={""}>
-      <div className={"home-bg"} />
+    <div>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
 

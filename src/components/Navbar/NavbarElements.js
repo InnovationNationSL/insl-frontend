@@ -27,7 +27,6 @@ export const NavbarContainer = styled.div`
   width: 100%;
   padding: 0 24px;
   max-width: 1100px;
-  font-family: SF-bold;
 `;
 
 export const Img = styled.img`
@@ -88,7 +87,6 @@ export const NavLinks = styled(LinkS)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
-  
 
   &.active {
     border-bottom: 3px solid #01bf71;
