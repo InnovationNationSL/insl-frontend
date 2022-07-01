@@ -8,6 +8,7 @@ import View2 from "./components/view2/view2";
 import View3 from "./components/view3/View3";
 import View4 from "./components/view4/view4";
 import View5 from "./components/view5/view5";
+import ResourcePeople from "./components/resourcePeople/resourcePeople";
 
 
 const Home = () => {
@@ -29,6 +30,7 @@ const Home = () => {
             <View3 />
             <View4 />
             <View5 />
+            <ResourcePeople />
         </div>
     </div>
   );

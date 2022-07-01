@@ -1,0 +1,10 @@
+.person-name{
+    font-family: SF-bold;
+    font-size: 25px;
+    line-height:1.8rem;
+    margin-bottom: 0px;
+}
+
+.person-details{
+    margin-top: 1.5rem;
+}
