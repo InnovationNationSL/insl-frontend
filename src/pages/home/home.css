@@ -14,6 +14,11 @@
     line-height: 3.5rem;
 }
 
+.view1-center{
+    text-align: center;
+}
+
+
 .viewtype-subtitle{
     font-family: SF-bold;
     font-size: 30px;

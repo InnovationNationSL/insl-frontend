@@ -32,7 +32,7 @@ const View2 = () =>{
                                     <p className={"viewtype-subtitle"}>Economic Potency</p>
                                 </div>
                                 <div>
-                                    <p>Be a part of Innovation Nation Sri Lanka 2021 in order to contribute towards the
+                                    <p className={"text-normal"}>Be a part of Innovation Nation Sri Lanka 2021 in order to contribute towards the
                                         economic dynamism by spurring innovation</p>
                                 </div>
 

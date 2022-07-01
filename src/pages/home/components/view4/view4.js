@@ -4,7 +4,7 @@ import Img1 from "./DSC_0099.png";
 
 const View4 = () =>{
     return(
-        <div className={"viewtype-2 viewtype-dark d-flex"}>
+        <div className={"viewtype-2 viewtype-dark d-flex flex-sm-row flex-column"}>
             <div className={"col-md-6 my-auto"}>
                 <div className={"col-md-6 mx-auto my-auto"}>
                     <img src={Img1} alt={"INSL White Logo"} />
@@ -20,10 +20,10 @@ const View4 = () =>{
             
                             <div className={"col-md-11"}>
                                 <div>
-                                    <p>IEEE Innovation Nation Sri Lanka strives to provide training, mentoring and financial
-support to budding entrepreneurs to take their ideas to the next level. Through the
-competition, we aim to expose the young minds to the global market as full fledged
-entrepreneurs, and create an opportunity for them to win seed-funding as well</p>
+                                    <p className={"text-normal"}>IEEE Innovation Nation Sri Lanka strives to provide training, mentoring and financial
+                                    support to budding entrepreneurs to take their ideas to the next level. Through the
+                                    competition, we aim to expose the young minds to the global market as full fledged
+                                    entrepreneurs, and create an opportunity for them to win seed-funding as well</p>
                                 </div>
 
                             </div>
