@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import Navbar from "../../components/Navbar/navbar";
+import Footer from "../../components/Footer/Footer";
 
 import "./home.css";
 import View1 from "./components/view1/view1";
@@ -10,7 +11,6 @@ import View4 from "./components/view4/view4";
 import View5 from "./components/view5/view5";
 import ResourcePeople from "./components/resourcePeople/resourcePeople";
 import Partners from "./components/partners/partners";
-
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
