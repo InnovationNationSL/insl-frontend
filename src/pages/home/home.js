@@ -12,6 +12,8 @@ import View5 from "./components/view5/view5";
 import ResourcePeople from "./components/resourcePeople/resourcePeople";
 import Partners from "./components/partners/partners";
 
+
+
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
 

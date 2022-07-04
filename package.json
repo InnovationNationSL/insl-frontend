@@ -1,6 +1,7 @@
 {
   "name": "insl-frontend",
   "version": "0.1.0",
+  "homepage": "https://gitname.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -42,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "file-loader": "^6.2.0"
+    "file-loader": "^6.2.0",
+    "gh-pages": "^4.0.0"
   }
 }
