@@ -1,11 +1,14 @@
 .viewtype-1{
     height: 90vh;
+}
+
+.viewtype-dark{
     color: white;
 }
 
 .viewtype-2{
     height: 90vh;
-    color: white;
+
 }
 
 .view1-title{

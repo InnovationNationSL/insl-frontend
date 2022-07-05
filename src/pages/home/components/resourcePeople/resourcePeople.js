@@ -36,7 +36,7 @@ import Dulith from "./img/Mr. Dulith Herath.jpg";
 
 const ResourcePeople = () =>{
     return(
-        <div className={"viewtype-2 viewtype-dark d-flex"}>
+        <div className={"viewtype-dark d-flex"}>
             
             <div className={"col my-auto"}>
                 <div className={"col-md-10 mx-auto my-auto"}>
