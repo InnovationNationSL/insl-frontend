@@ -81,6 +81,31 @@ const ResourcePeople = () =>{
                             </div>
                         </div>
 
+
+                        
+                        <div className={"d-flex view2-info-dat mx-auto"}>
+                            <div className={"col-md-11 d-flex flex-sm-row flex-column"}>
+                                <Person img = {Enosh} title="Mr. Enosh Praveen" body="Founder at Arteculate"/>
+                                <Person img = {Alagan} title="Mr. Alagan Mahalingam" body="Founder and CEO of Rootcode Labs"/>
+                                <Person img = {Ashan} title="Mr. Ashan Thamara Palihakkara" body="Team Leader - IEEE INSL 2019 Winner"/>
+                                <Person img = {Suman} title="Mr. Navaratnarajah Suman" body="Team Leader - IEEE INSL 2020 Winner"/>
+                                <Person img = {Anushiya} title="Ms. Anushiya Thevapalan" body="Team Leader - IEEE INSL 2018 Winner"/>
+
+                            </div>
+                        </div>
+
+
+                        <div className={"d-flex view2-info-dat mx-auto"}>
+                            <div className={"col-md-11 d-flex flex-sm-row flex-column"}>
+                                <Person img = {Tamasha} title="Ms. Tamasha Fernando" body="Senior Manager - Startup Ecosystem Development at ICTA"/>
+                                <Person img = {Rangika} title="Prof. Rangika Halwatura" body="Professor, Department of Civil Engineering , University of Moratuwa, Sri Lanka."/>
+                                <Person img = {Yasura} title="Mr. Yasura Samarakoon" body="Head of the Centre for SMEs unit at the Ceylon Chamber of Commerce"/>
+                                <Person img = {Ranjith} title="Eng. Ranjith Rubasinghe" body="Founder President, Chief Executive Officer, Sri Lanka Technological Campus"/>
+                                <Person img = {Dulith} title="Mr. Dulith Herath" body="Founder & Chairman of Kapruka.com"/>
+
+                            </div>
+                        </div>
+
                    
 
 
