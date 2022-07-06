@@ -17,7 +17,7 @@ export const View3Container = styled.div`
 `;
 
 export const View3Wrapper = styled.div`
-  max-width: 1000px;
+  max-width: 1060px;
 
   margin: 0 auto;
   display: grid;
@@ -43,7 +43,7 @@ export const View3Card = styled.div`
   align-items: center;
   border-radius: 10px;
   max-height: 440px;
-  min-height: 400px;
+  min-height: 410px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;

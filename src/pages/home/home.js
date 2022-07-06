@@ -12,8 +12,6 @@ import View5 from "./components/view5/view5";
 import ResourcePeople from "./components/resourcePeople/resourcePeople";
 import Partners from "./components/partners/partners";
 
-
-
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -28,14 +26,15 @@ const Home = () => {
 
       <View1 />
 
-        <div className={"dark-overlay"}>
-            <View2 />
-            <View3 />
-            <View4 />
-            <View5 />
-            <ResourcePeople />
-            <Partners />
-        </div>
+      <div className={"dark-overlay"}>
+        <View2 />
+        <View3 />
+        <View4 />
+        <View5 />
+        <ResourcePeople />
+        <Partners />
+        <Footer />
+      </div>
     </div>
   );
 };

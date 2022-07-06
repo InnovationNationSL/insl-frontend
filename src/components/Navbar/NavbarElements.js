@@ -26,7 +26,6 @@ export const NavbarContainer = styled.div`
   z-index: 1;
   width: 100%;
   padding: 0 24px;
-  max-width: 1100px;
 `;
 
 export const Img = styled.img`
@@ -65,7 +64,7 @@ export const MobileIcon = styled.div`
 
 export const NavMenu = styled.ul`
   display: flex;
-  align-items: center;
+
   list-style: none;
   text-align: center;
   margin-right: -22px;
