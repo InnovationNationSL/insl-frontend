@@ -1,9 +1,11 @@
 .viewtype-1{
     height: 90vh;
+    color: white;
 }
 
 .viewtype-dark{
     color: white;
+    margin-top: 5rem;
 }
 
 .viewtype-2{
@@ -26,6 +28,13 @@
 .viewtype-subtitle{
     font-family: SF-bold;
     font-size: 30px;
+    line-height: 2.5rem;
+    margin-bottom: 0px;
+}
+
+.viewtype-subtitle3{
+    font-family: SF-bold;
+    font-size: 20px;
     line-height: 2.5rem;
     margin-bottom: 0px;
 }

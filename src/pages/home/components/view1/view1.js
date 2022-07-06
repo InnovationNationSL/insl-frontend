@@ -5,7 +5,7 @@ import ButtonCircle from "../../../../components/buttonCircle/buttonCircle";
 
 const View1 = () =>{
     return(
-        <div className={"viewtype-1 viewtype-dark d-flex flex-sm-row flex-column"}>
+        <div className={"viewtype-1  d-flex flex-sm-row flex-column"}>
             <div className={"col-md-6 my-auto"}>
                 <div className={"col-md-6 mx-auto my-auto"}>
                     <p className={"view1-title"}>Welcome to IEEE Innovation Nation Sri Lanka</p>

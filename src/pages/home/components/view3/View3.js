@@ -5,88 +5,42 @@ import Icon1 from "./Icon1.png";
 import Icon2 from "./Icon2.png";
 import Icon3 from "./Icon3.png";
 import Icon4 from "./Icon4.png";
+import Card from "./components/card";
 
 const View3 = () => {
   return (
-    <section className={"view3"}>
+    <section className={"view3 viewtype-dark"}>
       <div className={"container"}>
         <div className={"row"}>
           <div className={"col-lg-12 text-center view3-title"}>
-            <h1 className={"title-text"}>
+            <h1 className={"view1-title"}>
               How will you benefit from IEEE INSL?
             </h1>
           </div>
         </div>
+
         <div className={"view3card-list"}>
+
           <div className={"row"}>
-            <div className={"col-lg-3"}>
-              <div className={"view3Card text-center"}>
-                <div className={"mx-auto py-4"}>
-                  <img src={Icon1} alt={"card-1"} />
-                </div>
-                <div className={"card-body text-center"}>
-                  <h5 className={"card-title"}>A Platform for Growth</h5>
-                  <p className={"card-text text-secondary"}>
-                    It is a platform where creativity meets its marketplace,
+
+            <Card icon={Icon1} title="A Platform for Growth" description="It is a platform where creativity meets its marketplace,
                     where young minds get to know their opportunities and unite
-                    to learn, innovate, and grow as one.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className={"col-lg-3"}>
-              <div className={"view3Card text-center"}>
-                <div className={"mx-auto py-4"}>
-                  <img src={Icon2} alt={"card-1"} />
-                </div>
-                <div className={"card-body text-center"}>
-                  <h5 className={"card-title text-uppercase font-roboto"}>
-                    Get Connected
-                  </h5>
-                  <p className={"card-text text-secondary"}>
-                    IEEE Innovation Nation will Integrate students, industry
+                    to learn, innovate, and grow as one."/>
+
+            <Card icon={Icon2} title="Get Connected" description="IEEE Innovation Nation will Integrate students, industry
                     professionals, and academia into a collaborative space that
                     celebrates the opportunities created by tech
-                    entrepreneurship.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className={"col-lg-3"}>
-              <div className={"view3Card text-center"}>
-                <div className={"mx-auto py-4"}>
-                  <img src={Icon3} alt={"card-1"} />
-                </div>
-                <div className={"card-body text-center"}>
-                  <h5 className={"card-title text-uppercase font-roboto"}>
-                    Entepreneurial Skills
-                  </h5>
-                  <p className={"card-text text-secondary"}>
-                    It will provide comprehensive training focused on design
+                    entrepreneurship."/>
+
+            <Card icon={Icon3} title="Entepreneurial Skills" description="It will provide comprehensive training focused on design
                     thinking, market analysis, financial projections, business
                     models, soft skill development, company law, technical
-                    aspects relevant to the selected project ideas, etc.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className={"col-lg-3"}>
-              <div className={"view3Card text-center"}>
-                <div className={"mx-auto py-4"}>
-                  <img src={Icon4} alt={"card-1"} />
-                </div>
-                <div className={"card-body text-center"}>
-                  <h5 className={"card-title text-uppercase font-roboto"}>
-                    Way to the Industry
-                  </h5>
-                  <p className={"card-text text-secondary"}>
-                    The judges of the finale may double as investors, and guide
+                    aspects relevant to the selected project ideas, etc."/>
+
+            <Card icon={Icon4} title="Way to the Industry" description="The judges of the finale may double as investors, and guide
                     the teams to become noteworthy start-ups and successful
-                    entrepreneurs of the future.
-                  </p>
-                </div>
-              </div>
-            </div>
+                    entrepreneurs of the future."/>
+
           </div>
         </div>
       </div>

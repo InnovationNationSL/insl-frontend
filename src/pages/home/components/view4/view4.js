@@ -4,7 +4,7 @@ import Img1 from "./DSC_0099.png";
 
 const View4 = () =>{
     return(
-        <div className={"viewtype-2 viewtype-dark d-flex flex-sm-row flex-column"}>
+        <div className={" viewtype-dark d-flex flex-sm-row flex-column"}>
             <div className={"col-md-6 my-auto"}>
                 <div className={" col-md-9 mx-auto my-auto"}>
                     <img src={Img1} className={"col-md-12 mx-auto"} alt={"INSL White Logo"} />

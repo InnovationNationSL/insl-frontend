@@ -1,3 +1,8 @@
 .text-white{
     text-decoration: none;
 }
+
+.footer-main{
+    margin-top: 12rem;
+    background-color: black;
+}

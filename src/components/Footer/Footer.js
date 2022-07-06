@@ -10,7 +10,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className={"bg-dark text-white pt-5 pb-4"}>
+    <footer className={"footer-main text-white pt-5 pb-4"}>
       <div className={"container text-center text-md-left"}>
         <div className={"row text-center text-md-left"}>
           <div className={"col-md-3 col-lg-3 col-xl-3 mx-auto mt-3"}>
@@ -81,18 +81,18 @@ const Footer = () => {
         <div className={"row align-item-center"}>
           <div className={"col-md-7 col-lg-6"}>
             <p>
-              Copyright © All right reserved by: <strong>INSL</strong>
+            All Rights Reserved  ©  <strong>IEEE Innovation Nation Sri Lanka</strong>
             </p>
           </div>
           <div className={"col-md-5 col-lg-4"}>
-            <div className={"text-center text-md-right"}>
+            {/* <div className={"text-center text-md-right"}>
               <ul className={"list-unstyled list-inline"}>
                 <li className={"list-inline-item"}>f</li>
                 <li className={"list-inline-item"}>i</li>
                 <li className={"list-inline-item"}>l</li>
                 <li className={"list-inline-item"}>t</li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
