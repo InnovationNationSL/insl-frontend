@@ -33,109 +33,78 @@ import Ranjith from "./img/Eng. Ranjith G Rubasinghe.jpg";
 import Dulith from "./img/Mr. Dulith Herath.jpg";
 
 const ResourcePeople = () => {
-  return (
-    <div className={"viewtype-dark d-flex"} id={"resources"}>
-      <div className={"col my-auto"}>
-        <div className={"col-md-10 mx-auto my-auto"}>
-          <p className={"view1-title view1-center"}>
-            INSL Resource People 2022
-          </p>
-
-          <div class={"view2-info"}>
-            <div className={"d-flex view2-info-dat mx-auto"}>
-              <div className={"col-md-11 d-flex flex-sm-row flex-column"}>
-                <Person
-                  img={Dhammika}
-                  title="Mr. Dhammika Marasinghe"
-                  body="Activities Chair - IEEE Sri Lanka Section"
-                />
-                <Person
-                  img={Dhanika}
-                  title="Mr. Dhanika Perera"
-                  body="Founder of Helakuru, PayHere, ShopHere and CEO of Bhasha"
-                />
-                <Person
-                  img={Mafaz}
-                  title="Mr. Mohammed Mafaz"
-                  body="Co-founder/Chief Story Teller - Show and Tell (Pvt) Ltd"
-                />
-                <Person
-                  img={Aloka}
-                  title="Mr. Aloka Gunasekara"
-                  body="Director - Startup and Business Ecosystem Innovation - IESC"
-                />
-                <Person
-                  img={Jehan}
-                  title="Mr. Jehan Wijesinghe"
-                  body="Co-Founder - IgniterSpace, Head of Product Management - Paladin Analytics"
-                />
-              </div>
-            </div>
-
-            <div className={"d-flex view2-info-dat mx-auto"}>
-              <div className={"col-md-11 d-flex flex-sm-row flex-column"}>
-                <Person
-                  img={Chanaka}
-                  title="Mr. Chanaka Hettige"
-                  body="Assistant Instructor and Ph.D. Student at Indiana University Bloomington "
-                />
-                <Person
-                  img={Chamika}
-                  title="Mr. Chamika Sudusinghe"
-                  body="Secretary - IEEE Region 10 Students Activities Committee"
-                />
-                <Person
-                  img={Dilini}
-                  title="Ms. Dilini Ekanayaka"
-                  body="Co-Chairman - IEEE SL Inspire, IEEE IN Leadership Team Member"
-                />
-                <Person
-                  img={Mithushan}
-                  title="Mr. Mithushan Jalangan"
-                  body="Webmaster - IEEE Region 10 YP, IEEE IN Leadership Team Member"
-                />
-                <Person
-                  img={Vidura}
-                  title="Mr. Vidura Dhananjaya"
-                  body="IEEE SAC Membership Development Sub-Committee Chair"
-                />
-              </div>
-            </div>
-
-const ResourcePeople = () =>{
-    return(
-        <div className={"viewtype-dark d-flex"}>
-            
+    return (
+        <div className={"viewtype-dark d-flex"} id={"resources"}>
             <div className={"col my-auto"}>
                 <div className={"col-md-10 mx-auto my-auto"}>
-
-                    <p className={"view1-title view1-center"}>INSL Resource People 2022</p>
+                    <p className={"view1-title view1-center"}>
+                        INSL Resource People 2022
+                    </p>
 
                     <div class={"view2-info"}>
-                     
-
-
                         <div className={"d-flex view2-info-dat mx-auto"}>
                             <div className={"col-md-11 d-flex flex-sm-row flex-column"}>
-                                <Person img = {Dhammika} title="Mr. Dhammika Marasinghe" body="Activities Chair - IEEE Sri Lanka Section"/>
-                                <Person img = {Dhanika} title="Mr. Dhanika Perera" body="Founder of Helakuru, PayHere, ShopHere and CEO of Bhasha"/>
-                                <Person img = {Mafaz} title="Mr. Mohammed Mafaz" body="Co-founder/Chief Story Teller - Show and Tell (Pvt) Ltd"/>
-                                <Person img = {Aloka} title="Mr. Aloka Gunasekara" body="Director - Startup and Business Ecosystem Innovation - IESC"/>
-                                <Person img = {Jehan} title="Mr. Jehan Wijesinghe" body="Co-Founder - IgniterSpace, Head of Product Management - Paladin Analytics"/>
-
+                                <Person
+                                img={Dhammika}
+                                title="Mr. Dhammika Marasinghe"
+                                body="Activities Chair - IEEE Sri Lanka Section"
+                                />
+                                <Person
+                                img={Dhanika}
+                                title="Mr. Dhanika Perera"
+                                body="Founder of Helakuru, PayHere, ShopHere and CEO of Bhasha"
+                                />
+                                <Person
+                                img={Mafaz}
+                                title="Mr. Mohammed Mafaz"
+                                body="Co-founder/Chief Story Teller - Show and Tell (Pvt) Ltd"
+                                />
+                                <Person
+                                img={Aloka}
+                                title="Mr. Aloka Gunasekara"
+                                body="Director - Startup and Business Ecosystem Innovation - IESC"
+                                />
+                                <Person
+                                img={Jehan}
+                                title="Mr. Jehan Wijesinghe"
+                                body="Co-Founder - IgniterSpace, Head of Product Management - Paladin Analytics"
+                                />
                             </div>
                         </div>
 
                         <div className={"d-flex view2-info-dat mx-auto"}>
                             <div className={"col-md-11 d-flex flex-sm-row flex-column"}>
-                                <Person img = {Chanaka} title="Mr. Chanaka Hettige" body="Assistant Instructor and Ph.D. Student at Indiana University Bloomington "/>
-                                <Person img = {Chamika} title="Mr. Chamika Sudusinghe" body="Secretary - IEEE Region 10 Students Activities Committee"/>
-                                <Person img = {Dilini} title="Ms. Dilini Ekanayaka" body="Co-Chairman - IEEE SL Inspire, IEEE IN Leadership Team Member"/>
-                                <Person img = {Mithushan} title="Mr. Mithushan Jalangan" body="Webmaster - IEEE Region 10 YP, IEEE IN Leadership Team Member"/>
-                                <Person img = {Vidura} title="Mr. Vidura Dhananjaya" body="IEEE SAC Membership Development Sub-Committee Chair"/>
-
+                                <Person
+                                img={Chanaka}
+                                title="Mr. Chanaka Hettige"
+                                body="Assistant Instructor and Ph.D. Student at Indiana University Bloomington "
+                                />
+                                <Person
+                                img={Chamika}
+                                title="Mr. Chamika Sudusinghe"
+                                body="Secretary - IEEE Region 10 Students Activities Committee"
+                                />
+                                <Person
+                                img={Dilini}
+                                title="Ms. Dilini Ekanayaka"
+                                body="Co-Chairman - IEEE SL Inspire, IEEE IN Leadership Team Member"
+                                />
+                                <Person
+                                img={Mithushan}
+                                title="Mr. Mithushan Jalangan"
+                                body="Webmaster - IEEE Region 10 YP, IEEE IN Leadership Team Member"
+                                />
+                                <Person
+                                img={Vidura}
+                                title="Mr. Vidura Dhananjaya"
+                                body="IEEE SAC Membership Development Sub-Committee Chair"
+                                />
                             </div>
                         </div>
+
+
+
+{/* ------------------------------------ */}
 
 
                         <div className={"d-flex view2-info-dat mx-auto"}>
@@ -150,7 +119,7 @@ const ResourcePeople = () =>{
                         </div>
 
 
-                        
+            
                         <div className={"d-flex view2-info-dat mx-auto"}>
                             <div className={"col-md-11 d-flex flex-sm-row flex-column"}>
                                 <Person img = {Enosh} title="Mr. Enosh Praveen" body="Founder at Arteculate"/>
@@ -171,24 +140,15 @@ const ResourcePeople = () =>{
                                 <Person img = {Ranjith} title="Eng. Ranjith Rubasinghe" body="Founder President, Chief Executive Officer, Sri Lanka Technological Campus"/>
                                 <Person img = {Dulith} title="Mr. Dulith Herath" body="Founder & Chairman of Kapruka.com"/>
 
+
                             </div>
                         </div>
 
-                   
-
-
- 
-
-          
                     </div>
-
                 </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 };
 
 export default ResourcePeople;
