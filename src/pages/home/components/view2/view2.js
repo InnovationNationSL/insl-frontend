@@ -16,12 +16,12 @@ const View2 = () =>{
             </div>
 
             <div className={"col-md-6 my-auto"}>
-                <div className={"col-md-8 mx-auto my-auto"}>
+                <div className={"col-10 col-md-8 mx-auto my-auto"}>
                     <p className={"view1-title"}>Why you should be a part of INSL</p>
 
                     <div class={"view2-info"}>
                         <div className={"d-flex view2-info-dat"}>
-                            <div className={"col-md-2"}>
+                            <div className={"col-3 col-md-2"}>
                                 <div className={"mx-auto my-auto"}>
                                     <img className={"mx-auto"} src={Industry} alt={"Industry icon"} />
                                 </div>
@@ -42,7 +42,7 @@ const View2 = () =>{
 
 
                         <div className={"d-flex"}>
-                            <div className={"col-md-2"}>
+                            <div className={"col-3 col-md-2"}>
                                 <div className={"mx-auto"}>
                                     <img src={LightBlub} alt={"Industry icon"} />
                                 </div>
