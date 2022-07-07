@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
+import { animateScroll as scroll } from "react-scroll";
 import {
   Nav,
   NavbarContainer,
@@ -16,11 +17,29 @@ import {
 import logosrc from "../logo.svg";
 
 const Navbar = ({ toggle }) => {
+  const [scrollNav, setScrollNav] = useState(false);
+
+  function changeNav() {
+    if (window.scrollY >= 80) {
+      setScrollNav(true);
+    } else {
+      setScrollNav(false);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", changeNav);
+  }, []);
+
+  function toggleHome() {
+    scroll.scrollToTop();
+  }
+
   return (
     <>
-      <Nav>
+      <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to="/">
+          <NavLogo to="/" onClick={toggleHome}>
             <Img src={logosrc} />
           </NavLogo>
           <MobileIcon onClick={toggle}>
@@ -28,14 +47,52 @@ const Navbar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about">About</NavLinks>
+              <NavLinks
+                to="about"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={0}
+              >
+                ABOUT
+              </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinksR to="/hustleStory">Hustle Story</NavLinksR>
+              <NavLinks
+                to="resources"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={0}
+              >
+                RESOURCES
+              </NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks
+                to="PARTNERS"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={0}
+              >
+                PARTNERS
+              </NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinksR to="/contact">CONTACT</NavLinksR>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/register">JOIN INSL COMMUNITY</NavBtnLink>
+            <NavBtnLink
+              target="_blank"
+              href="https://www.facebook.com/groups/IEEEINSLCommunity"
+            >
+              JOIN INSL COMMUNITY
+            </NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
