@@ -1,6 +1,6 @@
 .view3{
     padding: 1rem 2rem;
-    height: 800px;
+    /* height: 800px; */
 }
 
 .view3-img{
@@ -9,7 +9,7 @@
 }
 
 .view3 .view3-title{
-    padding: 0 14rem;
+    /* padding: 0 14rem; */
     color: #ffffff;
     margin-bottom: 64px;
 }

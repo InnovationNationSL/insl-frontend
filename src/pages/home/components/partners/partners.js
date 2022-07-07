@@ -18,7 +18,7 @@ const Partners = () =>{
     return(
         <div className={"viewtype-dark d-flex"}>
             
-            <div className={"col my-auto"}>
+            <div className={"col-12 my-auto"}>
                 <div className={"col-md-10 mx-auto my-auto"}>
 
                     <p className={"view1-title view1-center"}>Our Partners & Sponsors</p>
@@ -26,7 +26,7 @@ const Partners = () =>{
                     <div class={"view2-info"}>
 
                         <div className={"d-flex view2-info-dat mx-auto"}>
-                            <div className={"col-md-10 d-flex flex-sm-row flex-column mx-auto"}>
+                            <div className={"col-12 col-md-10 d-flex flex-sm-row flex-column mx-auto"}>
 
                                 <PartnerCardNational img={Icta} title="ICTA" type="National Partner"/>
                                 <PartnerCardNational img={LSEG} title="London Stock Exchange" type="Gold Sponsor"/>
@@ -34,7 +34,7 @@ const Partners = () =>{
                         </div>
 
                         <div className={"d-flex view2-info-dat"}>
-                            <div className={"col-md-10 d-flex flex-sm-row flex-column mx-auto"}>
+                            <div className={"col-12 col-md-10 d-flex flex-sm-row flex-column mx-auto"}>
                                 <PartnerCard img={ShownTell} title="Show & Tell" type="Mentoring Partner"/>
                                 <PartnerCard img={Accelozo} title="Accelozo" type="Knowledge Partner"/>
                                 <PartnerCard img={Trace} title="TRACE" type="Venue Partner"/>
@@ -42,7 +42,7 @@ const Partners = () =>{
                         </div>
 
                         <div className={"d-flex view2-info-dat"}>
-                            <div className={"col-md-10 d-flex flex-sm-row flex-column mx-auto"}>
+                            <div className={"col-12 col-md-10 d-flex flex-sm-row flex-column mx-auto"}>
                                 <PartnerCard img={Chamathka} title="Chamathka Papers" type="Supportive Partner"/>
                                 <PartnerCard img={Dreamspace} title="Dreamspace Academy" type="Regional partner"/>
                                 <PartnerCard img={Redbull} title="RedBull" type="Beverage Partner"/>

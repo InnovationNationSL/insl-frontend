@@ -35,7 +35,7 @@ import Dulith from "./img/Mr. Dulith Herath.jpg";
 const ResourcePeople = () => {
     return (
         <div className={"viewtype-dark d-flex"} id={"resources"}>
-            <div className={"col my-auto"}>
+            <div className={"col-12 my-auto"}>
                 <div className={"col-md-10 mx-auto my-auto"}>
                     <p className={"view1-title view1-center"}>
                         INSL Resource People 2022
@@ -43,7 +43,7 @@ const ResourcePeople = () => {
 
                     <div class={"view2-info"}>
                         <div className={"d-flex view2-info-dat mx-auto"}>
-                            <div className={"col-md-11 d-flex flex-sm-row flex-column"}>
+                            <div className={"col-12 col-md-11 d-flex flex-sm-row flex-column"}>
                                 <Person
                                 img={Dhammika}
                                 title="Mr. Dhammika Marasinghe"

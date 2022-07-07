@@ -11,8 +11,9 @@ const View3 = () => {
   return (
     <section className={"view3 viewtype-dark"}>
       <div className={"container"}>
+
         <div className={"row"}>
-          <div className={"col-lg-12 text-center view3-title"}>
+          <div className={"col-12 col-md-12 text-center view3-title"}>
             <h1 className={"view1-title"}>
               How will you benefit from IEEE INSL?
             </h1>

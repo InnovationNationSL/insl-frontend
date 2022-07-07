@@ -5,22 +5,22 @@ import Img1 from "./DSC_0099.png";
 const View4 = () => {
   return (
     <div
-      className={" viewtype-dark d-flex flex-sm-row flex-column"}
+      className={"view4-main viewtype-dark d-flex flex-sm-row flex-column"}
       id={"about"}
     >
       <div className={"col-md-6 my-auto"}>
-        <div className={" col-md-9 mx-auto my-auto"}>
+        <div className={"col-12 col-md-9 mx-auto my-auto"}>
           <img
             src={Img1}
-            className={"col-md-12 mx-auto"}
+            className={"col-12 col-md-12 mx-auto"}
             alt={"INSL White Logo"}
           />
         </div>
       </div>
 
       <div className={"col-md-6 my-auto"}>
-        <div className={"col-md-8 mx-auto my-auto"}>
-          <p className={"view1-title"}>
+        <div className={"col-10 col-md-8 mx-auto my-auto"}>
+          <p className={"view4-textbox view1-title"}>
             What is IEEE Innovation Nation Sri Lanka?
           </p>
 
