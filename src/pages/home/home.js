@@ -28,13 +28,19 @@ const Home = () => {
 
       <div className={"dark-overlay"}>
         <View2 />
+      </div>
+
         <View3 />
         <View4 />
         <View5 />
+      <div className={"dark-overlay"}>
         <ResourcePeople />
         <Partners />
         <Footer />
       </div>
+        
+        
+      
     </div>
   );
 };

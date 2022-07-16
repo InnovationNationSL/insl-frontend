@@ -36,7 +36,7 @@ const ResourcePeople = () => {
     return (
         <div className={"viewtype-dark d-flex"} id={"resources"}>
             <div className={"col-12 my-auto"}>
-                <div className={"col-md-10 mx-auto my-auto"}>
+                <div className={"resource-people col-md-10 mx-auto my-auto"}>
                     <p className={"view1-title view1-center"}>
                         INSL Resource People 2022
                     </p>

@@ -9,7 +9,7 @@ import Card from "./components/card";
 
 const View3 = () => {
   return (
-    <section className={"view3 viewtype-dark"}>
+    <section className={"view3 viewtype-dark "}>
       <div className={"container"}>
 
         <div className={"row"}>
