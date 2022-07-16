@@ -1,6 +1,7 @@
 import React from "react";
 import "./view4.css";
 import Img1 from "./DSC_0099.png";
+import Carousel from 'react-bootstrap/Carousel';
 
 const View4 = () => {
   return (
@@ -8,7 +9,7 @@ const View4 = () => {
       className={"view4-main viewtype-dark d-flex flex-sm-row flex-column"}
       id={"about"}
     >
-      <div className={"col-md-6 my-auto"}>
+      {/* <div className={"col-md-6 my-auto"}>
         <div className={"col-12 col-md-9 mx-auto my-auto"}>
           <img
             src={Img1}
@@ -16,7 +17,42 @@ const View4 = () => {
             alt={"INSL White Logo"}
           />
         </div>
+      </div> */}
+
+      <div className={"col-md-6 my-auto"}>
+        <Carousel>
+          <Carousel.Item>
+            <div className={"col-12 col-md-9 mx-auto my-auto"}>
+              <img
+                src={Img1}
+                className={"col-12 col-md-12 mx-auto"}
+                alt={"INSL White Logo"}
+              />
+            </div>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <div className={"col-12 col-md-9 mx-auto my-auto"}>
+              <img
+                src={Img1}
+                className={"col-12 col-md-12 mx-auto"}
+                alt={"INSL White Logo"}
+              />
+            </div>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <div className={"col-12 col-md-9 mx-auto my-auto"}>
+              <img
+                src={Img1}
+                className={"col-12 col-md-12 mx-auto"}
+                alt={"INSL White Logo"}
+              />
+            </div>
+          </Carousel.Item>
+        </Carousel>
       </div>
+
 
       <div className={"col-md-6 my-auto"}>
         <div className={"col-10 col-md-8 mx-auto my-auto"}>
