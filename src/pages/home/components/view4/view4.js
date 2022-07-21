@@ -6,7 +6,7 @@ import Carousel from 'react-bootstrap/Carousel';
 const View4 = () => {
   return (
     <div
-      className={"view4-main viewtype-dark d-flex flex-sm-row flex-column"}
+      className={"view4-main  view4-r-bg viewtype-dark d-flex flex-sm-row flex-column"}
       id={"about"}
     >
       {/* <div className={"col-md-6 my-auto"}>

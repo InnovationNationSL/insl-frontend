@@ -7,3 +7,10 @@
     margin-bottom:10rem;
 
 }
+
+.view4-r-bg{
+    background-image: url("/public/Asset\ 1.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: 100%; */
+}

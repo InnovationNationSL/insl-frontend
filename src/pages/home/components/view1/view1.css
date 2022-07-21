@@ -3,3 +3,9 @@
     font-size: 40px;
     line-height: 2.5rem;
 }
+
+.view1-bg{
+    background-image: url("/public/Asset\ 2.svg");
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+}

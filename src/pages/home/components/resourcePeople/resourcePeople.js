@@ -52,7 +52,8 @@ const ResourcePeople = () => {
                                 <Person
                                 img={Dhanika}
                                 title="Mr. Dhanika Perera"
-                                body="Founder of Helakuru, PayHere, ShopHere and CEO of Bhasha"
+                                body="Founder - CEO Bhasha Lanka (Pvt) Ltd
+                                Founder - CEO PayHere"
                                 />
                                 <Person
                                 img={Mafaz}
