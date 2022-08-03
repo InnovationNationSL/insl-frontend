@@ -11,6 +11,7 @@ import View4 from "./components/view4/view4";
 import View5 from "./components/view5/view5";
 import ResourcePeople from "./components/resourcePeople/resourcePeople";
 import Partners from "./components/partners/partners";
+import Faq from "./components/faq/faq";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,6 +37,7 @@ const Home = () => {
       <div className={"dark-overlay"}>
         <ResourcePeople />
         <Partners />
+        <Faq />
         <Footer />
       </div>
         

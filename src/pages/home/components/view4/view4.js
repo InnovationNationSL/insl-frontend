@@ -1,6 +1,14 @@
 import React from "react";
 import "./view4.css";
-import Img1 from "./DSC_0099.png";
+import Img1 from "./img/1.jpg";
+import Img2 from "./img/2.jpg";
+import Img3 from "./img/3.jpg";
+import Img4 from "./img/4.jpg";
+import Img5 from "./img/5.jpg";
+import Img6 from "./img/6.jpg";
+import Img7 from "./img/7.jpg";
+import Img8 from "./img/8.png";
+
 import Carousel from 'react-bootstrap/Carousel';
 
 const View4 = () => {
@@ -9,6 +17,9 @@ const View4 = () => {
       className={"view4-main  view4-r-bg viewtype-dark d-flex flex-sm-row flex-column"}
       id={"about"}
     >
+
+      
+
       {/* <div className={"col-md-6 my-auto"}>
         <div className={"col-12 col-md-9 mx-auto my-auto"}>
           <img
@@ -34,7 +45,7 @@ const View4 = () => {
           <Carousel.Item>
             <div className={"col-12 col-md-9 mx-auto my-auto"}>
               <img
-                src={Img1}
+                src={Img2}
                 className={"col-12 col-md-12 mx-auto"}
                 alt={"INSL White Logo"}
               />
@@ -44,7 +55,57 @@ const View4 = () => {
           <Carousel.Item>
             <div className={"col-12 col-md-9 mx-auto my-auto"}>
               <img
-                src={Img1}
+                src={Img3}
+                className={"col-12 col-md-12 mx-auto"}
+                alt={"INSL White Logo"}
+              />
+            </div>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <div className={"col-12 col-md-9 mx-auto my-auto"}>
+              <img
+                src={Img4}
+                className={"col-12 col-md-12 mx-auto"}
+                alt={"INSL White Logo"}
+              />
+            </div>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <div className={"col-12 col-md-9 mx-auto my-auto"}>
+              <img
+                src={Img5}
+                className={"col-12 col-md-12 mx-auto"}
+                alt={"INSL White Logo"}
+              />
+            </div>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <div className={"col-12 col-md-9 mx-auto my-auto"}>
+              <img
+                src={Img6}
+                className={"col-12 col-md-12 mx-auto"}
+                alt={"INSL White Logo"}
+              />
+            </div>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <div className={"col-12 col-md-9 mx-auto my-auto"}>
+              <img
+                src={Img7}
+                className={"col-12 col-md-12 mx-auto"}
+                alt={"INSL White Logo"}
+              />
+            </div>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <div className={"col-12 col-md-9 mx-auto my-auto"}>
+              <img
+                src={Img8}
                 className={"col-12 col-md-12 mx-auto"}
                 alt={"INSL White Logo"}
               />
