@@ -31,18 +31,15 @@ const Home = () => {
         <View2 />
       </div>
 
-        <View3 />
-        <View4 />
-        <View5 />
+      <View3 />
+      <View4 />
+      <View5 />
       <div className={"dark-overlay"}>
         <ResourcePeople />
         <Partners />
         <Faq />
         <Footer />
       </div>
-        
-        
-      
     </div>
   );
 };

@@ -82,9 +82,9 @@ const Navbar = ({ toggle }) => {
                 PARTNERS
               </NavLinks>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLinksR to="/contact">CONTACT</NavLinksR>
-            </NavItem>
+            </NavItem> */}
           </NavMenu>
           <NavBtn>
             <NavBtnLink

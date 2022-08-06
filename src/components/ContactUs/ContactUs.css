@@ -1,0 +1,25 @@
+body {
+    font-family: SF-regular;
+    background-color: blue;
+    color: #fff;
+}
+
+.heading {
+    text-align: center;
+    font-size: 45px;
+    border-bottom: 2px #fff;
+}
+
+.container {
+}
+
+.btn-info {
+    width: 50%;
+    letter-spacing: 2px;
+    background: transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-info:hover {
+    transform: scale(1.05);
+}
