@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import MessengerCustomerChat from "react-messenger-customer-chat";
 import "./App.css";
 import Home from "./pages/home/home";
+import Partners from "./pages/partners/partners";
 
 function App() {
   return (
@@ -25,7 +26,10 @@ function App() {
 
       <Router>
         <Routes>
+          
+          <Route path="/partners" element={<Partners />} />
           <Route path="/" element={<Home />} />
+          
         </Routes>
       </Router>
     </div>

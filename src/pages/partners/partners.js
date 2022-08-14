@@ -1,3 +1,5 @@
+
+
 import React, { useState } from "react";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import Navbar from "../../components/Navbar/navbar";
@@ -10,10 +12,9 @@ import View3 from "./components/view3/View3";
 import View4 from "./components/view4/view4";
 import View5 from "./components/view5/view5";
 import ResourcePeople from "./components/resourcePeople/resourcePeople";
-import Partners from "./components/partners/partners";
 import Faq from "./components/faq/faq";
 
-const Home = () => {
+const Partners = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   function toggle() {
@@ -25,23 +26,14 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
 
-      <View1 />
-
+      
       <div className={"dark-overlay"}>
-        <View2 />
-      </div>
-
-      <View3 />
-      <View4 />
-      <View5 />
-      <div className={"dark-overlay"}>
-        
-        <Partners />
-        <Faq />
+        <ResourcePeople />
+       
         <Footer />
       </div>
     </div>
   );
 };
 
-export default Home;
+export default Partners;

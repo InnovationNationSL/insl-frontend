@@ -15,6 +15,7 @@ import {
   Img,
 } from "./NavbarElements";
 import logosrc from "../logo.svg";
+import { Link } from "react-router-dom";
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -72,14 +73,15 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="PARTNERS"
+                to="/partners"
                 smooth={true}
                 duration={500}
                 spy={true}
                 exact="true"
                 offset={0}
               >
-                PARTNERS
+                
+                <Link to= "/partners">PARTNERS</Link>
               </NavLinks>
             </NavItem>
             {/* <NavItem>

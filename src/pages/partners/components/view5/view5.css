@@ -1,0 +1,29 @@
+.walkdown{
+    background-image: url("./img/bg-01.svg");
+    background-size: 100%;
+    padding-bottom: 3rem;
+
+}
+
+.walkdown-main{
+    background: linear-gradient(45deg, #07f813, #0b8393, #346e3e, #06a53b);
+    /* background-image: url("./components/img/space.jpg"); */
+    /* opacity: 0.5; */
+    background-size: 400% 400%;
+	animation: gradient2 5s ease infinite;
+}
+
+@keyframes gradient2 {
+	0% {
+		background-position: 0% 50%;
+	}
+	35% {
+		background-position: 100% 25%;
+	}
+    75% {
+		background-position: 50% 0%;
+	}
+	100% {
+		background-position: 0% 25%;
+	}
+}
