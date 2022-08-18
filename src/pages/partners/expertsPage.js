@@ -11,10 +11,10 @@ import View2 from "./components/view2/view2";
 import View3 from "./components/view3/View3";
 import View4 from "./components/view4/view4";
 import View5 from "./components/view5/view5";
-import ResourcePeople from "./components/resourcePeople/resourcePeople";
 import Faq from "./components/faq/faq";
+import Experts from "./components/resourcePeople/experts";
 
-const Partners = () => {
+const ExpertsPage = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   function toggle() {
@@ -28,7 +28,7 @@ const Partners = () => {
 
       
       <div className={"dark-overlay"}>
-        <ResourcePeople />
+        <Experts />
        
         <Footer />
       </div>
@@ -36,4 +36,4 @@ const Partners = () => {
   );
 };
 
-export default Partners;
+export default ExpertsPage;

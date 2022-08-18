@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import MessengerCustomerChat from "react-messenger-customer-chat";
 import "./App.css";
 import Home from "./pages/home/home";
-import Partners from "./pages/partners/partners";
+import ExpertsPage from "./pages/partners/expertsPage";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
       <Router>
         <Routes>
           
-          <Route path="/partners" element={<Partners />} />
+          <Route path="/experts" element={<ExpertsPage />} />
           <Route path="/" element={<Home />} />
           
         </Routes>

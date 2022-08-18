@@ -47,7 +47,7 @@ const Navbar = ({ toggle }) => {
             <FaBars />
           </MobileIcon>
           <NavMenu>
-            <NavItem>
+            {/* <NavItem>
               <NavLinks
                 to="about"
                 smooth={true}
@@ -58,22 +58,11 @@ const Navbar = ({ toggle }) => {
               >
                 ABOUT
               </NavLinks>
-            </NavItem>
+            </NavItem> */}
+
             <NavItem>
               <NavLinks
-                to="resources"
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={0}
-              >
-                RESOURCES
-              </NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks
-                to="/partners"
+                to="/experts"
                 smooth={true}
                 duration={500}
                 spy={true}
@@ -81,7 +70,7 @@ const Navbar = ({ toggle }) => {
                 offset={0}
               >
                 
-                <Link to= "/partners">PARTNERS</Link>
+                <Link to= "/experts" style={{textDecoration:"none", color:"white"}}>OUR EXPERTS</Link>
               </NavLinks>
             </NavItem>
             {/* <NavItem>

@@ -1,6 +1,6 @@
 import React from "react";
 import Person from "./components/person";
-import "./resourcePeople.css";
+import "./experts.css";
 
 import Dhammika from "./img/dhammika.jpg";
 import Dhanika from "./img/dhanika.jpg";
@@ -32,13 +32,13 @@ import Yasura from "./img/Mr. Yasura Samarakoon.jpg";
 import Ranjith from "./img/Eng. Ranjith G Rubasinghe.jpg";
 import Dulith from "./img/Mr. Dulith Herath.jpg";
 
-const ResourcePeople = () => {
+const Experts = () => {
     return (
-        <div className={"viewtype-dark d-flex"} id={"resources"}>
+        <div className={"viewtype-dark-2 d-flex"} id={"resources"}>
             <div className={"col-12 my-auto"}>
                 <div className={"resource-people col-md-10 mx-auto my-auto"}>
                     <p className={"view1-title view1-center"}>
-                        INSL Resource People 2022
+                        INSL Experts 2022
                     </p>
 
                     <div class={"view2-info"}>
@@ -152,4 +152,4 @@ const ResourcePeople = () => {
     );
 };
 
-export default ResourcePeople;
+export default Experts;

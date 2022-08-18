@@ -9,6 +9,12 @@
     padding-bottom: 5rem;
 }
 
+.viewtype-dark-2{
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
 .viewtype-2{
     height: 90vh;
 }
