@@ -80,8 +80,19 @@ const Navbar = ({ toggle }) => {
                 exact="true"
                 offset={0}
               >
-                
-                <Link to= "/partners">PARTNERS</Link>
+                <Link to="/partners">PARTNERS</Link>
+              </NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks
+                to="/partners"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={0}
+              >
+                <Link to="/RoadToINSL">Road To INSL</Link>
               </NavLinks>
             </NavItem>
             {/* <NavItem>

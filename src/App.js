@@ -3,6 +3,7 @@ import MessengerCustomerChat from "react-messenger-customer-chat";
 import "./App.css";
 import Home from "./pages/home/home";
 import Partners from "./pages/partners/partners";
+import RoadToINSL from "./components/RoadToINSL/Index";
 
 function App() {
   return (
@@ -26,10 +27,9 @@ function App() {
 
       <Router>
         <Routes>
-          
           <Route path="/partners" element={<Partners />} />
           <Route path="/" element={<Home />} />
-          
+          <Route path="/RoadToINSL" element={<RoadToINSL />} />
         </Routes>
       </Router>
     </div>
