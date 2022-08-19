@@ -84,16 +84,7 @@ const Navbar = ({ toggle }) => {
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks
-                to="/partners"
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={0}
-              >
-                <Link to="/RoadToINSL">Road To INSL</Link>
-              </NavLinks>
+              <NavLinksR to="/RoadToINSL">Road To INSL</NavLinksR>
             </NavItem>
             {/* <NavItem>
               <NavLinksR to="/contact">CONTACT</NavLinksR>
