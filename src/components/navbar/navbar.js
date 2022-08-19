@@ -73,6 +73,22 @@ const Navbar = ({ toggle }) => {
                 <Link to= "/experts" style={{textDecoration:"none", color:"white"}}>OUR EXPERTS</Link>
               </NavLinks>
             </NavItem>
+
+            <NavItem>
+              <NavLinks
+                to="/roadtoinsl"
+                smooth={true}
+                duration={500}  
+                spy={true}
+                exact="true"
+                offset={0}
+              >
+                
+                <Link to= "/roadtoinsl" style={{textDecoration:"none", color:"white"}}>Road To INSL</Link>
+              </NavLinks>
+            </NavItem>
+
+
             {/* <NavItem>
               <NavLinksR to="/contact">CONTACT</NavLinksR>
             </NavItem> */}
