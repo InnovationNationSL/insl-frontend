@@ -84,7 +84,7 @@ const Navbar = ({ toggle }) => {
                 offset={0}
               >
                 
-                <Link to= "/roadtoinsl" style={{textDecoration:"none", color:"white"}}>Road To INSL</Link>
+                <Link to= "/roadtoinsl" style={{textDecoration:"none", color:"white"}}>ROAD TO INSL</Link>
               </NavLinks>
             </NavItem>
 
