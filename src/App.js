@@ -1,11 +1,21 @@
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import MessengerCustomerChat from "react-messenger-customer-chat";
 import "./App.css";
 import Home from "./pages/home/home";
 import ExpertsPage from "./pages/partners/expertsPage";
-import RoadToINSL from "./components/RoadToINSL/Index";
+import Resources from "./pages/resources/Resources";
+import Sidebar from "./components/Sidebar/Sidebar";
+import Navbar from "./components/Navbar/navbar";
 
-function App() {
+const App = () => {
+
+  // const [isOpen, setIsOpen] = useState(false);
+
+  // function toggle() {
+  //   setIsOpen(!isOpen);
+  // }
+
   return (
     <div className="">
       <head>
@@ -25,12 +35,18 @@ function App() {
         appId="1436137633526748"
       />
 
+      
+      {/* <div>
+        <Sidebar isOpen={isOpen} toggle={toggle} />
+        <Navbar toggle={toggle} />
+      </div> */}
+
       <Router>
         <Routes>
           
           <Route path="/experts" element={<ExpertsPage />} />
           <Route path="/" element={<Home />} />
-          <Route path="/roadtoinsl" element={<RoadToINSL />} />
+          <Route path="/resources" element={<Resources />} />
         </Routes>
       </Router>
     </div>

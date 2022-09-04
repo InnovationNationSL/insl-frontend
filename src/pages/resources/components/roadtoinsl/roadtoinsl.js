@@ -1,9 +1,8 @@
-import Navbar from "../Navbar/navbar";
-import "./style.css";
+
 import YouTube, { YouTubeProps } from "react-youtube";
 import React, { useState } from 'react';
 
-function RoadToINSL() {
+function Roadtoinsl() {
   const onPlayerReady: YouTubeProps["onReady"] = (event) => {
     // access to player in all event handlers via event.target
     event.target.pauseVideo();
@@ -21,8 +20,8 @@ function RoadToINSL() {
   };
   return (
     <div>
-      <div className={"home-bg"} />
-      <Navbar />
+      <div className={""} />
+    
       <div className="container">
         <div className="row">
           <div className={"col my-auto"}>
@@ -224,4 +223,4 @@ function RoadToINSL() {
   );
 }
 
-export default RoadToINSL;
+export default Roadtoinsl;
