@@ -4,6 +4,7 @@ import YouTube, { YouTubeProps } from "react-youtube";
 import React, { useState } from 'react';
 import Sidebar from "../../components/Sidebar/Sidebar";
 import Roadtoinsl from "./components/roadtoinsl/roadtoinsl";
+import HustleStories from "./components/hustlestories/hustlestories";
 
 function Resources() {
   const [resourceType, setResourceType] = useState(1);
@@ -37,6 +38,12 @@ function Resources() {
       {resourceType===1 ? 
         <div className="row">
           <Roadtoinsl/>
+        </div>
+        : null}
+
+      {resourceType===2 ? 
+        <div className="row">
+          <HustleStories/>
         </div>
         : null}
 

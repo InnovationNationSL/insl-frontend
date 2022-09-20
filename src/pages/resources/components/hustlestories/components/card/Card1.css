@@ -1,0 +1,58 @@
+.card1{
+
+    padding: 2rem;
+    margin: 1rem;
+
+    background: rgb(0,65,41);
+    background: linear-gradient(54deg, rgba(0,65,41,1) 0%, rgba(0,83,75,1) 100%); 
+    padding: 1rem;
+    
+
+    /* border-radius: 5px; */
+    border-radius: 15px;
+}
+
+.thumb1{
+    /* border-radius: 5px; */
+    border-radius: 15px;
+}
+
+.thumb-img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.hustle-text-block{
+    margin-top: 0.6rem;
+    font-family: SF-bold;
+    font-size: 20px;
+    line-height:1.3rem;
+    margin-bottom: 0px;
+    color: white;
+
+}
+
+.calendar-ico{
+    width: 100%;
+    margin-right: 0.5rem;
+}
+
+.hustle-speaker{
+    font-family: SF-regular;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.hustle-text-block-main{
+    margin-top: 0.5rem;
+}
+.hustle-date{
+    font-family: SF-regular;
+    color: white;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+.date-section{
+    margin-top: 0.2rem;
+}
