@@ -17,36 +17,25 @@ const TeamsPage = () => {
                     <div class={"view2-info"}>
                         <div className={"d-flex view2-info-dat mx-auto"}>
                             <div className={"col-12 col-md-11 d-flex flex-sm-row flex-column"}>
-                                {/* <Person
-                                // img={}
-                                title="Mr. Dhammika Marasinghe"
-                                body="Activities Chair - IEEE Sri Lanka Section"
-                                />
-                                <Person
-                                // img={}
-                                title="Mr. Dhanika Perera"
-                                body="Founder - CEO Bhasha Lanka (Pvt) Ltd
-                                Founder - CEO PayHere"
-                                />
-                                <Person
-                                // img={}
-                                title="Mr. Mohammed Mafaz"
-                                body="Co-founder/Chief Story Teller - Show and Tell (Pvt) Ltd"
-                                />
-                                <Person
-                                // img={}
-                                title="Mr. Aloka Gunasekara"
-                                body="Director - Startup and Business Ecosystem Innovation - IESC"
-                                />
-                                <Person
-                                // img={}
-                                title="Mr. Jehan Wijesinghe"
-                                body="Co-Founder - IgniterSpace, Head of Product Management - Paladin Analytics"
-                                /> */}
+                                <Row className="row-teams">
+                                    {Records.prteam.map((record, k) => {
+                                    // setBreaker(setBreaker+1);
+                                    return(
+                                        <Col key={k} xs={12} md={4} lg={3}>
+                                            <Card className={"boot-card"}>
+                                                <Person title={record.title} speaker={record.speaker} date={record.date}/>
+                                            </Card>
+                                        </Col>
+                                    )
+                                    })}
+                                </Row>
+                            </div>
+                        </div>
 
-                                <Row>
-                                    {Records.map((record, k) => {
-
+                        <div className={"d-flex view2-info-dat mx-auto"}>
+                            <div className={"col-12 col-md-11 d-flex flex-sm-row flex-column"}>
+                                <Row className="row-teams">
+                                    {Records.financeteam.map((record, k) => {
                                     // setBreaker(setBreaker+1);
                                     return(
                                         <Col key={k} xs={12} md={4} lg={3}>

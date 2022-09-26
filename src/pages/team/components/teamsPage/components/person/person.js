@@ -3,7 +3,7 @@ import "./person.css";
 
 const Person = (props) =>{
     return(
-        <div className={"teampersoncard col"}>
+        <div className={"teampersoncard"}>
             <div className={""}>
                 <img className={"col-12 col-md-12 person-image"} src={props.img} alt={props.title}/>
             </div>

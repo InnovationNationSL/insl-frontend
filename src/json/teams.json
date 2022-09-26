@@ -1,37 +1,55 @@
-[
+{ "chairman":{
+              "name": "How to buy Sri Lanka for the minimum price?",
+              "title": "Mr. Sankalpa Gamwarige (Panelist)",
+              "linkedin": "2021-04-06",
+              "facebook": "https://www.youtube.com/watch?v=wk-iScJwuCA&ab_channel=deadmau5",
+              "image": "images/hustleStory/elon.jpeg"
+            },
+  "prteam": [
     {
-      "title": "How to buy Sri Lanka for the minimum price?",
-      "speaker": "Mr. Sankalpa Gamwarige (Panelist)",
-      "date": "2021-04-06",
-      "link": "https://www.youtube.com/watch?v=wk-iScJwuCA&ab_channel=deadmau5",
+      "name": "How to buy Sri Lanka for the minimum price?",
+      "title": "Mr. Sankalpa Gamwarige (Panelist)",
+      "linkedin": "2021-04-06",
+      "facebook": "https://www.youtube.com/watch?v=wk-iScJwuCA&ab_channel=deadmau5",
       "image": "images/hustleStory/elon.jpeg"
     },
     {
-      "title": "How to buy Sri Lanka for the minimum price?",
-      "speaker": "Mr. Sankalpa Gamwarige (Panelist)",
-      "date": "2021-04-06",
-      "link": "https://www.youtube.com/watch?v=wk-iScJwuCA&ab_channel=deadmau5",
-      "image": "images/hustleStory/elon.jpeg"
-    },
-    {
-      "title": "How to buy Sri Lanka for the minimum price?",
-      "speaker": "Mr. Heminda Jayaweera (Panelist)",
-      "date": "2021-04-06",
-      "link": "https://www.youtube.com/watch?v=wk-iScJwuCA&ab_channel=deadmau5",
-      "image": "images/hustleStory/elon.jpeg"
-    },
-    {
-      "title": "How to buy Sri Lanka for the minimum price?",
-      "speaker": "Mr. Ahamed Nishadh (Panelist)",
-      "date": "2021-04-06",
-      "link": "https://www.youtube.com/watch?v=wk-iScJwuCA&ab_channel=deadmau5",
-      "image": "images/hustleStory/elon.jpeg"
-    },
-    {
-      "title": "How to buy Sri Lanka for the minimum price?",
-      "speaker": "Ms. Sasmini Bandara (Moderator)",
-      "date": "2021-04-06",
-      "link": "https://www.youtube.com/watch?v=wk-iScJwuCA&ab_channel=deadmau5",
+      "name": "How to buy Sri Lanka for the minimum price?",
+      "title": "Mr. Sankalpa Gamwarige (Panelist)",
+      "linkedin": "2021-04-06",
+      "facebook": "https://www.youtube.com/watch?v=wk-iScJwuCA&ab_channel=deadmau5",
       "image": "images/hustleStory/elon.jpeg"
     }
-]
+  ],
+
+  "financeteam": [
+    {
+      "name": "How to buy Sri Lanka for the minimum price?",
+      "title": "Mr. Sankalpa Gamwarige (Panelist)",
+      "linkedin": "2021-04-06",
+      "facebook": "https://www.youtube.com/watch?v=wk-iScJwuCA&ab_channel=deadmau5",
+      "image": "images/hustleStory/elon.jpeg"
+    },
+    {
+      "name": "How to buy Sri Lanka for the minimum price?",
+      "title": "Mr. Sankalpa Gamwarige (Panelist)",
+      "linkedin": "2021-04-06",
+      "facebook": "https://www.youtube.com/watch?v=wk-iScJwuCA&ab_channel=deadmau5",
+      "image": "images/hustleStory/elon.jpeg"
+    },
+    {
+      "name": "How to buy Sri Lanka for the minimum price?",
+      "title": "Mr. Sankalpa Gamwarige (Panelist)",
+      "linkedin": "2021-04-06",
+      "facebook": "https://www.youtube.com/watch?v=wk-iScJwuCA&ab_channel=deadmau5",
+      "image": "images/hustleStory/elon.jpeg"
+    },
+    {
+      "name": "How to buy Sri Lanka for the minimum price?",
+      "title": "Mr. Sankalpa Gamwarige (Panelist)",
+      "linkedin": "2021-04-06",
+      "facebook": "https://www.youtube.com/watch?v=wk-iScJwuCA&ab_channel=deadmau5",
+      "image": "images/hustleStory/elon.jpeg"
+    }
+  ]
+}
