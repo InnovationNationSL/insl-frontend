@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import Card1 from "./components/card/Card1";
+import Records from "../../../../json/hustleStory.json";
+import { Card, Row, Col, Container } from "react-bootstrap";
+import "./hustlestories.css";
 
 function HustleStories(){
+    const [breaker, setBreaker] = useState(0);
+
     return (
         <div>
             <div className="container">
@@ -36,30 +41,26 @@ function HustleStories(){
 
 
             <div className="col-12 my-auto">
-                <div className="d-flex  mx-auto row col">
-                    <div className="col-9 col-md-9 d-flex mx-auto my-auto flex-sm-row flex-column justify-content-center">
-                        <Card1/>
-                        <Card1/>
-                        <Card1/>
-                        <Card1/>
-
-                    </div>
-                    
-                </div>
-
                 <div className="d-flex mx-auto row col">
                     <div className="col-9 col-md-9 d-flex mx-auto my-auto flex-sm-row flex-column justify-content-center">
-                        <Card1/>
-                        <Card1/>
-                        <Card1/>
-                        <Card1/>
+                        <Row>
+                            {Records.map((record, k) => {
 
+                            // setBreaker(setBreaker+1);
+                            return(
+                                <Col key={k} xs={12} md={4} lg={3}>
+                                    <Card className={"boot-card"}>
+                                        <Card1 title={record.title} speaker={record.speaker} date={record.date}/>
+                                    </Card>
+                                </Col>
+                            )
+                            })}
+                        </Row>
+
+                        
                     </div>
-                    
                 </div>
-
             </div>
-
         </div>
     )
 };

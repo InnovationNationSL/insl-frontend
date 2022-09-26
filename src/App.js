@@ -7,6 +7,7 @@ import ExpertsPage from "./pages/partners/expertsPage";
 import Resources from "./pages/resources/Resources";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Navbar from "./components/Navbar/navbar";
+import Team from "./pages/team/team";
 
 const App = () => {
 
@@ -47,6 +48,8 @@ const App = () => {
           <Route path="/experts" element={<ExpertsPage />} />
           <Route path="/" element={<Home />} />
           <Route path="/resources" element={<Resources />} />
+          <Route path="/team" element={<Team />} />
+
         </Routes>
       </Router>
     </div>

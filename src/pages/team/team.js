@@ -5,11 +5,11 @@ import Sidebar from "../../components/Sidebar/Sidebar";
 import Navbar from "../../components/Navbar/navbar";
 import Footer from "../../components/Footer/Footer";
 
-import "./home.css";
+// import "./home.css";
 
-import Experts from "./components/resourcePeople/experts";
+import TeamsPage from "./components/teamsPage/TeamsPage";
 
-const ExpertsPage = () => {
+const Team = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   function toggle() {
@@ -23,7 +23,7 @@ const ExpertsPage = () => {
 
       
       <div className={"dark-overlay"}>
-        <Experts />
+        <TeamsPage />
        
         <Footer />
       </div>
@@ -31,4 +31,4 @@ const ExpertsPage = () => {
   );
 };
 
-export default ExpertsPage;
+export default Team;

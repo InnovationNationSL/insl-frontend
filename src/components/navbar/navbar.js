@@ -59,6 +59,19 @@ const Navbar = ({ toggle }) => {
                 ABOUT
               </NavLinks>
             </NavItem> */}
+            <NavItem>
+              <NavLinks
+                to="/"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={0}
+              >
+                
+                <Link to= "/" style={{textDecoration:"none", color:"white"}}>HOME</Link>
+              </NavLinks>
+            </NavItem>
 
             <NavItem>
               <NavLinks
@@ -76,7 +89,7 @@ const Navbar = ({ toggle }) => {
 
             <NavItem>
               <NavLinks
-                to="/roadtoinsl"
+                to="/resources"
                 smooth={true}
                 duration={500}  
                 spy={true}
@@ -88,6 +101,19 @@ const Navbar = ({ toggle }) => {
               </NavLinks>
             </NavItem>
 
+            <NavItem>
+              <NavLinks
+                to="/team"
+                smooth={true}
+                duration={500}  
+                spy={true}
+                exact="true"
+                offset={0}
+              >
+                
+                <Link to= "/team" style={{textDecoration:"none", color:"white"}}>TEAM</Link>
+              </NavLinks>
+            </NavItem>
 
             {/* <NavItem>
               <NavLinksR to="/contact">CONTACT</NavLinksR>
