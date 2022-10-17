@@ -5,3 +5,9 @@
 .row-teams{
     width:100%;
 }
+
+.subteam-names{
+    font-family: SF-bold;
+    font-size: 30px;
+    font-weight: 200;  
+}

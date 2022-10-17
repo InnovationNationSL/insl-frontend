@@ -1,36 +1,129 @@
 {
 "members": [
     {
-      "name": "Dhammika Marasinghe",
-      "age": 29,
-      "secretIdentity": "Dan Jukes",
-      "powers": [
-        "Radiation resistance",
-        "Turning tiny",
-        "Radiation blast"
-      ]
+      "name": "Mr. Alagan Mahalingam",
+      "tagline": "Founder and CEO of Rootcode Labs",
+      "img": "/Mr. Alagan.jpg"
     },
     {
-      "name": "Madame Uppercut",
-      "age": 39,
-      "secretIdentity": "Jane Wilson",
-      "powers": [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
-      ]
+      "name": "Mr. Aloka Gunasekara",
+      "tagline": "Director - Startup and Business Ecosystem Innovation - IESC",
+      "img": "/Aloka Gunasekara.jpg"
     },
     {
-      "name": "Eternal Flame",
-      "age": 1000000,
-      "secretIdentity": "Unknown",
-      "powers": [
-        "Immortality",
-        "Heat Immunity",
-        "Inferno",
-        "Teleportation",
-        "Interdimensional travel"
-      ]
+      "name": "Ms. Anushiya Thevapalan",
+      "tagline": "Team Leader - IEEE INSL 2018 Winner",
+      "img": "/Ms. Anushiya.jpg"
+    },
+    {
+      "name": "Mr. Ashan Thamara Palihakkara",
+      "tagline": "Team Leader - IEEE INSL 2019 Winner",
+      "img": "/Mr. Ashan.jpg"
+    },
+    {
+      "name": "Mr. Chamika Sudusinghe",
+      "tagline": "Section Student Activities Chair - IEEE Sri Lanka Section",
+      "img": "/Chamika.jpg"
+    },
+    {
+      "name": "Mr. Chanaka Hettige",
+      "tagline": "Assistant Instructor and Ph.D. Student at Indiana University Bloomington",
+      "img": "/Chanaka-Hettige.jpg"
+    },
+    {
+      "name": "Mr. Dhammika Marasinghe",
+      "tagline": "Chair - IEEE Young Professionals Sri Lanka",
+      "img": "/dhammika.jpg"
+    },
+    {
+      "name": "Mr. Dhanika Perera",
+      "tagline": "Founder of Helakuru, PayHere, ShopHere and CEO of Bhasha",
+      "img": "/dhanika.jpg"
+    },
+    {
+      "name": "Ms. Dilini Ekanayaka",
+      "tagline": "Secretary - IEEE IAS Sri Lanka Chapter, Editor of IEEE Young Professionals Sri Lanka",
+      "img": "/Dilini.jpg"
+    },
+    {
+      "name": "Mr. Dulith Herath",
+      "tagline": "Founder & Chairman of Kapruka.com",
+      "img": "/Mr. Dulith Herath.jpg"
+    },
+    {
+      "name": "Mr. Enosh Praveen",
+      "tagline": "Founder at Arteculate",
+      "img": "/Mr. Enosh.jpg"
+    },
+    {
+      "name": "Mr. Hirishegan Karuneswaran",
+      "tagline": "IT Business Analyst - PickMe",
+      "img": "/Hirishegan Karuneswaran.jpg"
+    },
+    {
+      "name": "Mr. Indika De Zoysa",
+      "tagline": "Vice President, Enterprise Business Group,Huawei Technologies Lanka Co (Pvt) Ltd",
+      "img": "/Indika.jpeg"
+    },
+    {
+      "name": "Mr. Jehan Wijesinghe",
+      "tagline": "Co-Founder - IgniterSpace, Head of Product Management - Paladin Analytics",
+      "img": "/Jehan.jpg"
+    },
+    {
+      "name": "Ms. Maheshika Madubashani",
+      "tagline": "IT Business Analyst - PayMedia",
+      "img": "/Maheshika.jpg"
+    },
+    {
+      "name": "Mr. Mithushan Jalangan",
+      "tagline": "Technical Activities Lead Coordinator - IEEE Region 10 Young Professionals",
+      "img": "/Mithushan Jalangan.jpg"
+    },
+    {
+      "name": "Mr. Mohammed Mafaz",
+      "tagline": "Co-founder/Chief Story Teller - Show and Tell (Pvt) Ltd",
+      "img": "/Mohammed Mafaz.jpg"
+    },
+    {
+      "name": "Mr. Navaratnarajah Suman",
+      "tagline": "Team Leader - IEEE INSL 2020 Winner",
+      "img": "/Mr. Suman.jpg"
+    },
+    {
+      "name": "Prof. Rangika Halwatura",
+      "tagline": "Professor, Department of Civil Engineering , University of Moratuwa, Sri Lanka",
+      "img": "/Prof. Rangika Halwatura.jpg"
+    },
+    {
+      "name": "Eng. Ranjith Rubasinghe",
+      "tagline": "Founder President, Chief Executive Officer, Sri Lanka Technological Campus",
+      "img": "/Ranjith Rubasinghe.jpg"
+    },
+    {
+      "name": "Mr. Subodha Iranga",
+      "tagline": "Former Logistics Lead INSL 2020",
+      "img": "/Subodha.jpg"
+    },
+    {
+      "name": "Ms. Tamasha Fernando",
+      "tagline": "Senior Manager - Startup Ecosystem Development at ICTA",
+      "img": "/tamasha.jpeg"
+    },
+    {
+      "name": "Mr. Thivvyan Karuneswaran",
+      "tagline": "Former Publicity Lead INSL 2020",
+      "img": "/thivvyan.jpg"
+    },
+    {
+      "name": "Mr. Vidura Dhananjaya",
+      "tagline": "Sectional Student Representative - IEEE Sri Lanka Section",
+      "img": "/Vidura.jpg"
+    },
+    {
+      "name": "Mr. Yasura Samarakoon",
+      "tagline": "Head of the Centre for SMEs unit at the Ceylon Chamber of Commerce",
+      "img": "/Mr. Yasura Samarakoon.jpg"
     }
 ]
 }
