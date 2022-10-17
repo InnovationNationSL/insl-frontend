@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ed9c1b84.css",
-    "main.js": "/static/js/main.9481e1ce.js",
+    "main.css": "/static/css/main.72b55ddf.css",
+    "main.js": "/static/js/main.6de56d62.js",
     "static/js/787.4eb88c09.chunk.js": "/static/js/787.4eb88c09.chunk.js",
     "static/media/space.jpg": "/static/media/space.7213acd9a17d34b9e2dd.jpg",
     "static/media/7.jpg": "/static/media/7.9f4f4eab5bc988f1f0f5.jpg",
@@ -12,6 +12,7 @@
     "static/media/5.jpg": "/static/media/5.eb9cc143c9cb8fc6c96f.jpg",
     "static/media/6.jpg": "/static/media/6.25bdff43128653c118b7.jpg",
     "static/media/Mr. Alagan-photo-original.jpg": "/static/media/Mr. Alagan-photo-original.a1a058267ec3772eda38.jpg",
+    "static/media/Mr. Alagan.jpg": "/static/media/Mr. Alagan.a1a058267ec3772eda38.jpg",
     "static/media/icon.png": "/static/media/icon.d9f07a6302b986977238.png",
     "static/media/Mr. Ashan.jpg": "/static/media/Mr. Ashan.7e56ad9a86852ec9711b.jpg",
     "static/media/8.png": "/static/media/8.587612f2cfc70ff9f745.png",
@@ -20,14 +21,18 @@
     "static/media/SF-Pro-Text-Regular.otf": "/static/media/SF-Pro-Text-Regular.fcb9e72d130c5321d318.otf",
     "static/media/SF-Pro-Display-Regular.otf": "/static/media/SF-Pro-Display-Regular.b089a1f90c2a5b839565.otf",
     "static/media/Mr. Enosh Profile.jpg": "/static/media/Mr. Enosh Profile.21a5d2402a8970b285d8.jpg",
+    "static/media/Mr. Enosh.jpg": "/static/media/Mr. Enosh.21a5d2402a8970b285d8.jpg",
     "static/media/Prof. Rangika Halwatura 1.jpg": "/static/media/Prof. Rangika Halwatura 1.47c4b708acedd72b9ed0.jpg",
+    "static/media/Prof. Rangika Halwatura.jpg": "/static/media/Prof. Rangika Halwatura.47c4b708acedd72b9ed0.jpg",
     "static/media/Mr. Dulith Herath.jpg": "/static/media/Mr. Dulith Herath.ca5f953534cda3186085.jpg",
     "static/media/Chanaka-Hettige.jpg": "/static/media/Chanaka-Hettige.dfd871a5547671ce2f6a.jpg",
+    "static/media/elon.jpg": "/static/media/elon.c8e778be909666a08273.jpg",
     "static/media/dhanika.jpg": "/static/media/dhanika.d1e9b2e1e189d89f22cf.jpg",
     "static/media/Mithushan Jalangan.jpg": "/static/media/Mithushan Jalangan.51f142ef04e94d161cbb.jpg",
     "static/media/Vidura.jpg": "/static/media/Vidura.19507f64d746bc76d188.jpg",
     "static/media/Mr. Suman.jpg": "/static/media/Mr. Suman.1cccc437f3bae8e18c2c.jpg",
     "static/media/Eng. Ranjith G Rubasinghe.jpg": "/static/media/Eng. Ranjith G Rubasinghe.a1f6f40895e97fdae587.jpg",
+    "static/media/Ranjith Rubasinghe.jpg": "/static/media/Ranjith Rubasinghe.a1f6f40895e97fdae587.jpg",
     "static/media/Indika.jpeg": "/static/media/Indika.b2653c52f9f72505863a.jpeg",
     "static/media/tamasha.jpeg": "/static/media/tamasha.de91e922a41e942bd2af.jpeg",
     "static/media/insl2020.jpg": "/static/media/insl2020.9bccce012c2c0cdbe44d.jpg",
@@ -55,12 +60,12 @@
     "static/media/Asset 2.svg": "/static/media/Asset 2.8185d7a70e0cd9f079f9.svg",
     "static/media/bg-01.svg": "/static/media/bg-01.830af068da44b0fac2b7.svg",
     "index.html": "/index.html",
-    "main.ed9c1b84.css.map": "/static/css/main.ed9c1b84.css.map",
-    "main.9481e1ce.js.map": "/static/js/main.9481e1ce.js.map",
+    "main.72b55ddf.css.map": "/static/css/main.72b55ddf.css.map",
+    "main.6de56d62.js.map": "/static/js/main.6de56d62.js.map",
     "787.4eb88c09.chunk.js.map": "/static/js/787.4eb88c09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed9c1b84.css",
-    "static/js/main.9481e1ce.js"
+    "static/css/main.72b55ddf.css",
+    "static/js/main.6de56d62.js"
   ]
 }
