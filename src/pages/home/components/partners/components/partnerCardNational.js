@@ -7,9 +7,9 @@ const partnerCardNational = (props) =>{
             <div className={"partner-logo"}>
                 <img src={props.img} alt={props.title} className={"partner-logo-img mx-auto col-12 col-md-12 my-auto"}/>
             </div>
-            <div class="viewtype-subtitle2"><p>{props.type}</p></div>        
+            <div class="viewtype-subtitle-partner-2"><p>{props.type}</p></div>        
 
-            <div class="viewtype-subtitle"><p>{props.title}</p></div>        
+            <div class="viewtype-subtitle-partner"><p>{props.title}</p></div>        
         </div>
     )
 }

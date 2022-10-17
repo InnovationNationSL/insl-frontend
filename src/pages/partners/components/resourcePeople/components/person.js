@@ -13,7 +13,7 @@ const Person = (props) =>{
 
             <div className={"person-details"}>
                 <div class={"person-name-resource"}><p>{props.name}</p></div>
-                <p className={"text-normal year-card-body"}>{props.tagline}</p>
+                <p className={"text-normal-resource year-card-body"}>{props.tagline}</p>
             </div>
 
         </div>
