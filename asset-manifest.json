@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/insl-frontend/static/css/main.59f78115.css",
-    "main.js": "/insl-frontend/static/js/main.b6801fb2.js",
+    "main.css": "/insl-frontend/static/css/main.26ddfdb0.css",
+    "main.js": "/insl-frontend/static/js/main.4ccc0653.js",
     "static/js/787.4eb88c09.chunk.js": "/insl-frontend/static/js/787.4eb88c09.chunk.js",
     "static/media/space.jpg": "/insl-frontend/static/media/space.7213acd9a17d34b9e2dd.jpg",
     "static/media/7.jpg": "/insl-frontend/static/media/7.9f4f4eab5bc988f1f0f5.jpg",
@@ -10,12 +10,20 @@
     "static/media/2.jpg": "/insl-frontend/static/media/2.b75ef01e5c3206e84a9c.jpg",
     "static/media/4.jpg": "/insl-frontend/static/media/4.c3f55a4dbcb4ee3482c6.jpg",
     "static/media/5.jpg": "/insl-frontend/static/media/5.eb9cc143c9cb8fc6c96f.jpg",
+    "static/media/north central.jpg": "/insl-frontend/static/media/north central.12faadca7eecbddc8203.jpg",
     "static/media/6.jpg": "/insl-frontend/static/media/6.25bdff43128653c118b7.jpg",
+    "static/media/central.jpg": "/insl-frontend/static/media/central.6a3c41a031fa6593112b.jpg",
+    "static/media/nothern.jpg": "/insl-frontend/static/media/nothern.a5dbc7f6b2e6396590a2.jpg",
+    "static/media/imgtest.jpg": "/insl-frontend/static/media/imgtest.68e2cbc09400bada50be.jpg",
+    "static/media/southern.jpg": "/insl-frontend/static/media/southern.0537ba0d302249d48135.jpg",
+    "static/media/eastern.jpg": "/insl-frontend/static/media/eastern.58ada30a30d167e174b0.jpg",
     "static/media/Mr. Alagan-photo-original.jpg": "/insl-frontend/static/media/Mr. Alagan-photo-original.a1a058267ec3772eda38.jpg",
     "static/media/Mr. Alagan.jpg": "/insl-frontend/static/media/Mr. Alagan.a1a058267ec3772eda38.jpg",
     "static/media/icon.png": "/insl-frontend/static/media/icon.d9f07a6302b986977238.png",
     "static/media/Mr. Ashan.jpg": "/insl-frontend/static/media/Mr. Ashan.7e56ad9a86852ec9711b.jpg",
+    "static/media/north western.jpg": "/insl-frontend/static/media/north western.8e87ffe2d3c7a14cdb8a.jpg",
     "static/media/8.png": "/insl-frontend/static/media/8.587612f2cfc70ff9f745.png",
+    "static/media/uva.jpg": "/insl-frontend/static/media/uva.fd40e69b57ff90d72f2d.jpg",
     "static/media/SF-Pro-Display-Semibold.otf": "/insl-frontend/static/media/SF-Pro-Display-Semibold.2e4649dd3a66a64ce00b.otf",
     "static/media/SF-Pro-Display-Bold.otf": "/insl-frontend/static/media/SF-Pro-Display-Bold.0d14364066badfe8accf.otf",
     "static/media/SF-Pro-Text-Regular.otf": "/insl-frontend/static/media/SF-Pro-Text-Regular.fcb9e72d130c5321d318.otf",
@@ -27,6 +35,7 @@
     "static/media/Mr. Dulith Herath.jpg": "/insl-frontend/static/media/Mr. Dulith Herath.ca5f953534cda3186085.jpg",
     "static/media/Chanaka-Hettige.jpg": "/insl-frontend/static/media/Chanaka-Hettige.dfd871a5547671ce2f6a.jpg",
     "static/media/elon.jpg": "/insl-frontend/static/media/elon.c8e778be909666a08273.jpg",
+    "static/media/sabaragamuwa.jpg": "/insl-frontend/static/media/sabaragamuwa.fdbbfdab3c7c31d1ea0e.jpg",
     "static/media/dhanika.jpg": "/insl-frontend/static/media/dhanika.d1e9b2e1e189d89f22cf.jpg",
     "static/media/Mithushan Jalangan.jpg": "/insl-frontend/static/media/Mithushan Jalangan.51f142ef04e94d161cbb.jpg",
     "static/media/Vidura.jpg": "/insl-frontend/static/media/Vidura.19507f64d746bc76d188.jpg",
@@ -60,12 +69,12 @@
     "static/media/Asset 2.svg": "/insl-frontend/static/media/Asset 2.8185d7a70e0cd9f079f9.svg",
     "static/media/bg-01.svg": "/insl-frontend/static/media/bg-01.830af068da44b0fac2b7.svg",
     "index.html": "/insl-frontend/index.html",
-    "main.59f78115.css.map": "/insl-frontend/static/css/main.59f78115.css.map",
-    "main.b6801fb2.js.map": "/insl-frontend/static/js/main.b6801fb2.js.map",
+    "main.26ddfdb0.css.map": "/insl-frontend/static/css/main.26ddfdb0.css.map",
+    "main.4ccc0653.js.map": "/insl-frontend/static/js/main.4ccc0653.js.map",
     "787.4eb88c09.chunk.js.map": "/insl-frontend/static/js/787.4eb88c09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59f78115.css",
-    "static/js/main.b6801fb2.js"
+    "static/css/main.26ddfdb0.css",
+    "static/js/main.4ccc0653.js"
   ]
 }
