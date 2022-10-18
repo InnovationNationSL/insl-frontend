@@ -1,5 +1,5 @@
 .view3{
-    padding: 8rem;
+    
     /* height: 800px; */
     background-image: url("./img/space.jpg");
     background-size: 100%;
@@ -10,17 +10,18 @@
     display: flex;;
 }
 
-.view3 .view3-title{
+.view3-title{
     /* padding: 0 14rem; */
     color: #ffffff;
     margin-bottom: 64px;
 }
 
-.view3 .view3Card {
+.view3Card {
     /* border-radius: 10px; */
     /* max-height: 420px; */
     min-height: 420px;
     padding: 30px;
+    margin-bottom: 2rem;
     /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
     transition: all 0.2s ease-in-out;
     

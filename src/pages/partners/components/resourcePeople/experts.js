@@ -48,18 +48,13 @@ const Experts = () => {
                     <div class={"view2-info"}>
                         <div className={"d-flex view2-info-dat mx-auto"}>
                             <div className={"col-12 col-md-11 d-flex flex-sm-row flex-column"}>
-                                {/* <Person
-                                img={Dhammika}
-                                title="Mr. Dhammika Marasinghe"
-                                body="Activities Chair - IEEE Sri Lanka Section"
-                                /> */}
-
+                          
                                 <Row>
                                     {Records.members.map((record, k) => {
 
                                     // setBreaker(setBreaker+1);
                                     return(
-                                        <Col key={k} xs={12} md={2} lg={2}>
+                                        <Col key={k} xs={12} md={4} lg={2}>
                                             <Card className={"boot-card"}>
                                             <Person
                                                 img={record.img}

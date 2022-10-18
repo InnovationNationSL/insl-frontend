@@ -8,6 +8,7 @@ import Resources from "./pages/resources/Resources";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Navbar from "./components/Navbar/navbar";
 import Team from "./pages/team/team";
+import Provincials from "./pages/provincials/provincials";
 
 const App = () => {
 
@@ -49,6 +50,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/provincials" element={<Provincials />} />
 
         </Routes>
       </Router>
