@@ -14,10 +14,11 @@ function Card1(props){
             <div>
                 <p className="hustle-text-block">{props.title}</p>
                 <div className="hustle-text-block-main">
-                    <p className="hustle-speaker">{props.speaker}</p>
+                    
+                    <p className="hustle-speaker">{props.speakers}</p>
                     <div className="d-flex date-section">
                         <img src={Calender} className="calendar-ico col-1"/>
-                        <p className="hustle-date">{props.date}</p>
+                        <p className="hustle-date">{props.year}</p>
                     </div>
                     
                 </div>

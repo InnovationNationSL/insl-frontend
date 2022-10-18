@@ -14,53 +14,31 @@ const Footer = () => {
       <div className={"container text-center text-md-left"}>
         <div className={"row text-center text-md-left"}>
           <div className={"col-md-3 col-lg-3 col-xl-3 mx-auto mt-3"}>
-            <h5 className={"text-uppercase mb-4 font-weight-bold"}>INSL</h5>
+            {/* <h5 className={"text-uppercase mb-4 font-weight-bold"}>INSL</h5> */}
           </div>
-          <div className={"col-md-2 col-lg-2 col-xl-2 mx-auto mt-3"}>
-            <h5 className={"text-uppercase mb-4 font-weight-bold"}>Links</h5>
-            <p>
-              <a href="#" className={"text-white"}>
-                Home
-              </a>
-            </p>
-            <p>
-              <a href="#" className={"text-white"}>
-                About
-              </a>
-            </p>
-            <p>
-              <a href="#" className={"text-white"}>
-                Resources
-              </a>
-            </p>
-            <p>
-              <a href="#" className={"text-white"}>
-                Benefits
-              </a>
-            </p>
-          </div>
-          <div className={"col-md-2 col-lg-2 col-xl-2 mx-auto mt-3"}>
+     
+          <div className={"col-md-3 col-lg-4 col-xl-4 mx-auto mt-3"}>
             <h5 className={"text-uppercase mb-4 font-weight-bold"}>
               Follow Us
             </h5>
             <p>
-              <a href="#" className={"text-white"}>
+              <a href="IEEE.org" className={"text-white"} target="_blank">
                 IEEE.org
               </a>
             </p>
             <p>
-              <a href="#" className={"text-white"}>
-                IEEE.lk
+              <a href="IEEE.lk" className={"text-white"} target="_blank">
+                IEEE Sri Lanka Section
               </a>
             </p>
             <p>
-              <a href="#" className={"text-white"}>
-                IEEEyp.lk
+              <a href="IEEEyp.lk" className={"text-white"} target="_blank">
+                IEEE Young Professionals
               </a>
             </p>
             <p>
-              <a href="#" className={"text-white"}>
-                IEEEwie.lk
+              <a href="IEEEwie.lk" className={"text-white"} target="_blank">
+                IEEE Women in Engineering
               </a>
             </p>
           </div>

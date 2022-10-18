@@ -1,29 +1,26 @@
 .card1{
-
     padding: 2rem;
     /* margin: 1rem; */
-
     background: rgb(0,65,41);
     background: linear-gradient(54deg, rgba(0,65,41,1) 0%, rgba(0,83,75,1) 100%); 
     padding: 1rem;
-    
-
     /* border-radius: 5px; */
     border-radius: 15px;
+    min-height: 58vh;
 }
 
 .thumb1{
     /* border-radius: 5px; */
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .thumb-img{
     width: 100%;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .hustle-text-block{
-    margin-top: 0.6rem;
+    margin-top: 1rem;
     font-family: SF-bold;
     font-size: 20px;
     line-height:1.3rem;
@@ -44,15 +41,15 @@
 }
 
 .hustle-text-block-main{
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 }
 .hustle-date{
     font-family: SF-regular;
     color: white;
-    font-size: 13px;
+    font-size: 16px;
     margin-bottom: 0px;
 }
 
 .date-section{
-    margin-top: 0.2rem;
+    margin-top: 1rem;
 }

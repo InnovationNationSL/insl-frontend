@@ -48,11 +48,15 @@ function HustleStories(){
 
                             // setBreaker(setBreaker+1);
                             return(
-                                <Col key={k} xs={12} md={4} lg={3}>
+                                
+                                <Col key={k} xs={12} md={6} lg={6}>
+                                    <a href={record.link} target="_blank" style={{textDecoration: 'none'}}>
                                     <Card className={"boot-card"}>
-                                        <Card1 title={record.title} speaker={record.speaker} date={record.date}/>
+                                        <Card1 title={record.title} speakers={record.speakers} year={record.year} link={record.link} image={record.image} />
                                     </Card>
+                                    </a>
                                 </Col>
+                                
                             )
                             })}
                         </Row>
