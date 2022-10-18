@@ -14,7 +14,7 @@
     margin-right: 2rem;
     margin-top:0rem;
     margin-bottom:0rem;
-    height: 21rem;
+    min-height: 21rem;
 
     /* border-radius: 5px; */
     border-radius: 15px;

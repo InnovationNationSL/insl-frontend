@@ -3,7 +3,7 @@ import "./yearCard.css";
 
 const YearCard = (props) =>{
     return(
-        <div className={"yearcard col-md-3"}>
+        <div className={"yearcard "}>
             <div className={""}>
                 <img className={"col-12 col-md-12 yearcard-img"} src={props.img} alt={props.title}/>
             </div>

@@ -115,6 +115,21 @@ const Navbar = ({ toggle }) => {
               </NavLinks>
             </NavItem>
 
+
+            <NavItem>
+              <NavLinks
+                to="/provincials"
+                smooth={true}
+                duration={500}  
+                spy={true}
+                exact="true"
+                offset={0}
+              >
+                
+                <Link to= "/provincials" style={{textDecoration:"none", color:"white"}}>PROVINCIAL COMPETITIONS</Link>
+              </NavLinks>
+            </NavItem>
+
             {/* <NavItem>
               <NavLinksR to="/contact">CONTACT</NavLinksR>
             </NavItem> */}

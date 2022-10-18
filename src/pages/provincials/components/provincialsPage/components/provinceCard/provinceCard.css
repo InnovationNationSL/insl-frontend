@@ -1,0 +1,10 @@
+.province-image{
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(5, 101, 26);
+}
+
+.no-space{
+    margin: 0;
+}

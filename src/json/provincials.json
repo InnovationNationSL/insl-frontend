@@ -1,0 +1,89 @@
+{ "province":[
+
+    {
+    "name": "Central Province",
+    "date": "2022-15-26",
+    "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
+
+    "modaldata":[{
+      "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
+      "content1": "asavaevaevavaevaev",
+      "content2": "aevaevvaawswfevav"
+      }],
+    "image": "/central.jpg",
+    "location": "Silicon Valley, Kandy"
+    },
+    
+    {
+    "name": "Northen Province",
+    "date": "2022-15-26",
+    "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
+
+    "modaldata":[{
+      "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
+      "content1": "asavaevaevavaevaev",
+      "content2": "aevaevvaawswfevav"
+      }],
+    "image": "/sabaragamuwa.jpg",
+    "location": "Silicon Valley, Kandy"
+    },
+    
+    {
+    "name": "Western Province",
+    "date": "2022-15-26",
+    "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
+
+    "modaldata":[{
+      "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
+      "content1": "asavaevaevavaevaev",
+      "content2": "aevaevvaawswfevav"
+      }],
+    "image": "/imgtest.jpg",
+    "location": "Silicon Valley, Kandy"
+    },
+
+    {
+    "name": "Central Province",
+    "date": "2022-15-26",
+    "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
+
+    "modaldata":[{
+      "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
+      "content1": "asavaevaevavaevaev",
+      "content2": "aevaevvaawswfevav"
+      }],    
+    "image": "/imgtest.jpg",
+    "location": "Silicon Valley, Kandy"
+    },
+    
+    {
+    "name": "Northen Province",
+    "date": "2022-15-26",
+    "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
+
+    "modaldata":[{
+      "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
+      "content1": "asavaevaevavaevaev",
+      "content2": "aevaevvaawswfevav"
+      }],    
+    "image": "/imgtest.jpg",
+    "location": "Silicon Valley, Kandy"
+    },
+    
+    {
+    "name": "Western Province",
+    "date": "2022-15-26",
+    "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
+
+    "modaldata":[{
+      "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
+      "content1": "asavaevaevavaevaev",
+      "content2": "aevaevvaawswfevav"
+      }],    
+    "image": "/imgtest.jpg",
+    "location": "Silicon Valley, Kandy"
+    }
+  ]
+
+  }
+  

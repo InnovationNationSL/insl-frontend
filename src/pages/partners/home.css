@@ -1,5 +1,5 @@
 .viewtype-1{
-    height: 90vh;
+    min-height: 90vh;
     color: white;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .viewtype-2{
-    height: 90vh;
+    min-height: 90vh;
 }
 
 .view1-title{

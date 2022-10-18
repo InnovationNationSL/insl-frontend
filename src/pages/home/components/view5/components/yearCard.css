@@ -3,7 +3,7 @@
     background: linear-gradient(54deg, rgba(0,83,75,1) 0%, rgba(0,65,41,1) 100%); 
     border-radius: 15px;
     padding: 2rem;
-    margin: 2rem;    
+    margin: 1rem;    
     border-width: 2px;
     border-style: solid;
     border-color: rgb(5, 101, 26);
@@ -15,7 +15,7 @@
 
 .yearcard-img{
 
-    border-radius: 15px;
+    border-radius: 10px;
     margin-bottom: 1.5rem;
     
 }

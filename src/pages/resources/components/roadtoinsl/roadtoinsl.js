@@ -69,7 +69,7 @@ function Roadtoinsl() {
 
         {roadToINSLday===1 ? 
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 col-xs-12">
             <h1 className="title">Road to INSL - Day 01</h1>
             <p className="text-normal">
               To start off with the training programs for the teams registered
@@ -106,7 +106,7 @@ function Roadtoinsl() {
             </ul>
             
           </div>
-          <div className="col-4">
+          <div className="col-4 col-md-4 col-xs-3">
             <YouTube
               videoId="rexmEtYYoAs"
               opts={opts}
@@ -205,7 +205,7 @@ function Roadtoinsl() {
 
             </ul>
           </div>
-          <div className="col-4">
+          <div className="col-4 col-md-4 col-xs-6">
             <YouTube
               videoId="rexmEtYYoAs"
               opts={opts}
