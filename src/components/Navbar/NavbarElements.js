@@ -25,14 +25,14 @@ export const NavbarContainer = styled.div`
   height: 80px;
   z-index: 1;
   width: 100%;
-  padding: 0 24px;
+  // padding: 0 24px;
 `;
 
 export const Img = styled.img`
   justify-self: flex-start;
   width: 70px;
   height: 70px;
-  margin-left: 24px;
+  // margin-left: 24px;
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -120,6 +120,7 @@ export const NavBtnLink = styled.a`
   background: #01bf71;
   white-space: nowrap;
   padding: 10px 22px;
+  margin-right: 24px;
   color: #010606;
   font-size: 16px;
   outline: none;
