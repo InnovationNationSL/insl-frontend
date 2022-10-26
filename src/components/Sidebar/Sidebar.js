@@ -19,13 +19,17 @@ function Sidebar({ isOpen, toggle }) {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about" onClick={toggle}>
-            About
-          </SidebarLink>
-          <SidebarLinkR to="/hustleStory">Hustle Story </SidebarLinkR>
+          <SidebarLinkR to="/">HOME</SidebarLinkR>
+          <SidebarLinkR to="/experts">OUR EXPERTS</SidebarLinkR>
+          <SidebarLinkR to="/resources">RESOURCES</SidebarLinkR>
+          <SidebarLinkR to="/team">TEAM</SidebarLinkR>
+          <SidebarLinkR to="/provincials">PROVINCIAL COMPETITIONS</SidebarLinkR>
+
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="/register">Register</SidebarRoute>
+          {/* <SidebarRoute  target="_blank"
+              href="https://www.facebook.com/groups/IEEEINSLCommunity"
+            >Register</SidebarRoute> */}
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

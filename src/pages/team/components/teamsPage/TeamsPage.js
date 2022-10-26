@@ -21,7 +21,7 @@ const TeamsPage = () => {
                                     return(
                                         <Col key={k} xs={12} md={4} lg={3}>
                                             <Card className={"boot-card"}>
-                                                <Person name={record.name} title={record.title} linkedin={record.linkedin} facebook={record.facebook} image={""} />
+                                                <Person name={record.name} title={record.title} linkedin={record.linkedin} facebook={record.facebook} image={record.image} />
                                             </Card>
                                         </Col>
                                     )
@@ -51,7 +51,7 @@ const TeamsPage = () => {
                                     return(
                                         <Col key={k} xs={12} md={4} lg={3}>
                                             <Card className={"boot-card"}>
-                                                <Person name={record.name} title={record.title} linkedin={record.linkedin} facebook={record.facebook} image={""} />
+                                                <Person name={record.name} title={record.title} linkedin={record.linkedin} facebook={record.facebook} image={record.image} />
                                             </Card>
                                         </Col>
                                     )
@@ -78,7 +78,7 @@ const TeamsPage = () => {
                                     return(
                                         <Col key={k} xs={12} md={4} lg={3}>
                                             <Card className={"boot-card"}>
-                                                <Person name={record.name} title={record.title} linkedin={record.linkedin} facebook={record.facebook} image={""} />
+                                                <Person name={record.name} title={record.title} linkedin={record.linkedin} facebook={record.facebook} image={record.image} />
                                             </Card>
                                         </Col>
                                     )
@@ -106,7 +106,7 @@ const TeamsPage = () => {
                                     return(
                                         <Col key={k} xs={12} md={4} lg={3}>
                                             <Card className={"boot-card"}>
-                                                <Person name={record.name} title={record.title} linkedin={record.linkedin} facebook={record.facebook} image={""} />
+                                                <Person name={record.name} title={record.title} linkedin={record.linkedin} facebook={record.facebook} image={record.image} />
                                             </Card>
                                         </Col>
                                     )
@@ -132,7 +132,7 @@ const TeamsPage = () => {
                                     return(
                                         <Col key={k} xs={12} md={4} lg={3}>
                                             <Card className={"boot-card"}>
-                                                <Person name={record.name} title={record.title} linkedin={record.linkedin} facebook={record.facebook} image={""} />
+                                                <Person name={record.name} title={record.title} linkedin={record.linkedin} facebook={record.facebook}  image={record.image}  />
                                             </Card>
                                         </Col>
                                     )
@@ -159,7 +159,7 @@ const TeamsPage = () => {
                                     return(
                                         <Col key={k} xs={12} md={4} lg={3}>
                                             <Card className={"boot-card"}>
-                                                <Person name={record.name} title={record.title} linkedin={record.linkedin} facebook={record.facebook} image={""} />
+                                                <Person name={record.name} title={record.title} linkedin={record.linkedin} facebook={record.facebook} image={record.image} />
                                             </Card>
                                         </Col>
                                     )
@@ -185,7 +185,7 @@ const TeamsPage = () => {
                                     return(
                                         <Col key={k} xs={12} md={4} lg={3}>
                                             <Card className={"boot-card"}>
-                                                <Person name={record.name} title={record.title} linkedin={record.linkedin} facebook={record.facebook} image={""} />
+                                                <Person name={record.name} title={record.title} linkedin={record.linkedin} facebook={record.facebook} image={record.image} />
                                             </Card>
                                         </Col>
                                     )
@@ -211,7 +211,7 @@ const TeamsPage = () => {
                                     return(
                                         <Col key={k} xs={12} md={4} lg={3}>
                                             <Card className={"boot-card"}>
-                                                <Person name={record.name} title={record.title} linkedin={record.linkedin} facebook={record.facebook} image={""} />
+                                                <Person name={record.name} title={record.title} linkedin={record.linkedin} facebook={record.facebook} image={record.image} />
                                             </Card>
                                         </Col>
                                     )
