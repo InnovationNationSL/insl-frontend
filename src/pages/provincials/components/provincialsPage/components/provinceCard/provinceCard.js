@@ -40,9 +40,9 @@ const ProvinceCard = (props) =>{
     return(
         <div>
 
-        
-        <Button variant="link" style={{textDecoration:"none", color:"white"}} onClick={() => setModalShow(true)}>
-            <div className={"teampersoncard"}>
+        {/* // change setModalShow(false) to true to make it work */}
+        <Button variant="link" style={{textDecoration:"none", color:"white"}} onClick={() => setModalShow(false)}>
+            <div className={"provincialscard"}>
                 <div className={""}>
                     <img className={"col-12 col-md-12 province-image"} src={require('/img' + props.img)} alt={props.name}/>
                 </div>

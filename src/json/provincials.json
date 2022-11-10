@@ -1,87 +1,142 @@
 { "province":[
 
     {
-    "name": "Central Province",
-    "date": "2022-15-26",
-    "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
+    "name": "North Western Province",
+    "date": "2022-10-24",
+    "description":"",
 
-    "modaldata":[{
-      "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
-      "content1": "asavaevaevavaevaev",
-      "content2": "aevaevvaawswfevav"
-      }],
-    "image": "/central.jpg",
-    "location": "Silicon Valley, Kandy"
+    "modaldata":{
+      "description":"North Western Provincial Competitions were held on the 24th of October in the Wayamba University Mini Auditorium. It was well-planned and was concluded successfully by the INSL 2022 Mini Organizing committee of Northwestern Province.",
+      "content1": "",
+      "content2": ""
+      },
+    "image": "/north western.jpg",
+    "location": "Wayamba University Mini Auditorium"
     },
     
     {
-    "name": "Northen Province",
-    "date": "2022-15-26",
-    "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
+    "name": "Sabaragamuwa Province",
+    "date": "2022-10-27",
+    "description":"",
 
-    "modaldata":[{
-      "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
-      "content1": "asavaevaevavaevaev",
-      "content2": "aevaevvaawswfevav"
-      }],
+    "modaldata":{
+      "description":"Sabaragamuwa  Provincial Competitions were held on the 27th of October at Sabaragamuwa University Mini Auditorium. It was an excellent event that consisted of the essence of the Sabaragamuwa University of Sri Lanka together with the picturesque beauty of the Sabaragamuwa Province.",
+      "content1": "",
+      "content2": ""
+      },
     "image": "/sabaragamuwa.jpg",
-    "location": "Silicon Valley, Kandy"
+    "location": "Sabaragamuwa University Mini Auditorium"
     },
     
     {
-    "name": "Western Province",
-    "date": "2022-15-26",
-    "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
+    "name": "Eastern Province",
+    "date": "2022-10-27",
+    "description":"",
 
-    "modaldata":[{
-      "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
-      "content1": "asavaevaevavaevaev",
-      "content2": "aevaevvaawswfevav"
-      }],
-    "image": "/imgtest.jpg",
-    "location": "Silicon Valley, Kandy"
+    "modaldata":{
+      "description":"Eastern Provincial Competitions were held on the 27th of October at the South Eastern University Civil Department Auditorium. The event was a huge success for the Mini Organizing committee of Eastern Province since it was well-planned and organized.",
+      "content1": "",
+      "content2": ""
+      },
+    "image": "/eastern.jpg",
+    "location": "South Eastern University Civil Department Auditorium"
     },
 
+    {
+    "name": "Colombo North Province",
+    "date": "2022-10-29",
+    "description":"",
+    "modaldata":{
+      "description":"Colombo North Divisional Competitions were held on the 29th of October at the SLIIT Main auditorium. This was held as the first part of the Western Provincial Competitions which included the teams from the Colombo North region. The event was successfully organized by the Mini Organizing Committee of the Colombo North region.",
+      "content1": "",
+      "content2": ""
+      },    
+    "image": "/colombo north.jpg",
+    "location": "SLIIT Main auditorium"
+    },
+    
+    {
+    "name": "Southern North",
+    "date": "2022-10-30",
+    "description":"",
+
+    "modaldata":{
+      "description":"Southern Provincial Competitions were held on the 30th of October via zoom.",
+      "content1": "",
+      "content2": ""
+      },    
+    "image": "/southern.jpg",
+    "location": "Virtual"
+    },
+    
+    {
+    "name": "Uva Province",
+    "date": "2022-10-30",
+    "description":"",
+
+    "modaldata":{
+      "description":"Uva Provincial Competitions were held on the 30th of October at the Uva Wellessa University premises. It was well-planned and was concluded successfully by the INSL 2022 Mini Organizing committee of Uva Province.",
+      "content1": "",
+      "content2": ""
+      },    
+    "image": "/uva.jpg",
+    "location": "Uva Wellessa University"
+    },
+    
     {
     "name": "Central Province",
-    "date": "2022-15-26",
-    "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
+    "date": "2022-11-12",
+    "description":"",
 
-    "modaldata":[{
-      "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
-      "content1": "asavaevaevavaevaev",
-      "content2": "aevaevvaawswfevav"
-      }],    
-    "image": "/imgtest.jpg",
-    "location": "Silicon Valley, Kandy"
+    "modaldata":{
+      "description":"Central Provincial Competitions were held on the 12th of November at Rajarata University premises. It was an excellent event well planned and wonderful with the picturesque beauty of the Central Province.",
+      "content1": "",
+      "content2": ""
+      },    
+    "image": "/central.jpg",
+    "location": "Rajarata University"
     },
     
     {
-    "name": "Northen Province",
-    "date": "2022-15-26",
-    "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
+    "name": "Colombo South",
+    "date": "2022-11-12",
+    "description":"",
 
-    "modaldata":[{
-      "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
-      "content1": "asavaevaevavaevaev",
-      "content2": "aevaevvaawswfevav"
-      }],    
-    "image": "/imgtest.jpg",
-    "location": "Silicon Valley, Kandy"
+    "modaldata":{
+      "description":"Colombo South Provincial Competitions are to be held on the 12th of November at the NSBM Green University premises.",
+      "content1": "",
+      "content2": ""
+      },    
+    "image": "/colombosouth.jpg",
+    "location": "NSBM Green University"
     },
     
     {
-    "name": "Western Province",
-    "date": "2022-15-26",
-    "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
+    "name": "North Central Province",
+    "date": "2022-11-12",
+    "description":"",
 
-    "modaldata":[{
-      "description":"Being a Toastmaster means more than simply making a commitment to self-development. Everyone who joins a Toastmasters club is making a commitment to the club",
-      "content1": "asavaevaevavaevaev",
-      "content2": "aevaevvaawswfevav"
-      }],    
-    "image": "/imgtest.jpg",
-    "location": "Silicon Valley, Kandy"
+    "modaldata":{
+      "description":"North Central Provincial Competitions are to be held on the 12th of November.",
+      "content1": "",
+      "content2": ""
+      },    
+    "image": "/north central.jpg",
+    "location": ""
+    },
+    
+    {
+    "name": "Northern",
+    "date": "2022-11-12",
+    "description":"",
+
+    "modaldata":{
+      "description":"Northern Provincial Competitions are to be held on the 12th of November.",
+      "content1": "",
+      "content2": ""
+      },    
+    "image": "/northern.jpg",
+    "location": ""
     }
   ]
 

@@ -8,3 +8,16 @@
 .no-space{
     margin: 0;
 }
+
+.provincialscard{
+
+    background: rgb(0,65,41);
+    background: linear-gradient(54deg, rgba(0,65,41,1) 0%, rgba(0,83,75,1) 100%); 
+    padding: 1.2rem;
+    margin: 0.5rem;
+
+    /* border-radius: 5px; */
+    border-radius: 15px;
+    min-height: 30rem;
+    
+}

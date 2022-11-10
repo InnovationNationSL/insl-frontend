@@ -32,6 +32,7 @@ import "./experts.css";
 // import Ranjith from "./img/Eng. Ranjith G Rubasinghe.jpg";
 // import Dulith from "./img/Mr. Dulith Herath.jpg";
 
+import Records from "../../../../json/resourcePeople.json";
 
 
 import { Card, Row, Col, Container } from "react-bootstrap";

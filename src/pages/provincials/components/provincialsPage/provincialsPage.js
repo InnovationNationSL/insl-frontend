@@ -21,7 +21,7 @@ const ProvincialsPage = () => {
                                     return(
                                         <Col key={k} xs={12} md={6} lg={4}>
                                             <Card className={"boot-card"}>
-                                                <ProvinceCard name={record.name} img={record.image} desc={record.description} date={record.date} location={record.location} />
+                                                <ProvinceCard name={record.name} img={record.image} desc={record.modaldata.description} date={record.date} location={record.location} />
                                             </Card>
                                         </Col>
                                     )
