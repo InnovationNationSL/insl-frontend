@@ -1,0 +1,68 @@
+{ "gold":[    
+    {
+        "tag": "National Partner",
+        "name": "ICTA",
+        "img": "/icta.png",
+        "link": "https://www.facebook.com/spoonhansika/"
+    }
+  ],
+  
+  "ordinary": [
+    {
+        "tag": "Innovative Partner",
+        "name": "Slt Mobitel",
+        "img": "/sltmobitel.png",
+        "link": "https://www.facebook.com/spoonhansika/"
+    },
+    {
+        "tag": "Silver Partner",
+        "name": "WSO2",
+        "img": "/wso2.png",
+        "link": "https://www.facebook.com/spoonhansika/"
+    },
+    {
+        "tag": "Bronze Partner",
+        "name": "Creative",
+        "img": "/lseg.png",
+        "link": "https://www.facebook.com/spoonhansika/"
+    },
+    {
+        "tag": "Ecosystem Partner",
+        "name": "Hatch",
+        "img": "/hatch.png",
+        "link": "https://www.facebook.com/spoonhansika/"
+    },
+    {
+        "tag": "Knowledge Partner",
+        "name": "Careerme",
+        "img": "/lseg.png",
+        "link": "https://www.facebook.com/spoonhansika/"
+    },
+    {
+        "tag": "Knowledge Partner",
+        "name": "UNDP",
+        "img": "/undp.png",
+        "link": "https://www.facebook.com/spoonhansika/"
+    },
+    {
+        "tag": "Mentoring Partner",
+        "name": "Slasscom",
+        "img": "/lseg.png",
+        "link": "https://www.facebook.com/spoonhansika/"
+    },
+    {
+        "tag": "Mentoring Partner",
+        "name": "Show and tell",
+        "img": "/show tell.png",
+        "link": "https://www.facebook.com/spoonhansika/"
+    },
+    {
+        "tag": "Digital Media Partner",
+        "name": "Arteculate",
+        "img": "/Arteculate.png",
+        "link": "https://www.facebook.com/spoonhansika/"
+    }
+    
+
+  ]
+}

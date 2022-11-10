@@ -33,7 +33,7 @@ import "./experts.css";
 // import Dulith from "./img/Mr. Dulith Herath.jpg";
 
 
-import Records from "../../../../json/resourcePeople.json";
+
 import { Card, Row, Col, Container } from "react-bootstrap";
 
 const Experts = () => {
