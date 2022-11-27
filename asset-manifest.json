@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/insl-frontend/static/css/main.58c3c32c.css",
-    "main.js": "/insl-frontend/static/js/main.e4d913ed.js",
+    "main.css": "/insl-frontend/static/css/main.f84b483f.css",
+    "main.js": "/insl-frontend/static/js/main.96c3d949.js",
     "static/js/787.4eb88c09.chunk.js": "/insl-frontend/static/js/787.4eb88c09.chunk.js",
     "static/media/space.jpg": "/insl-frontend/static/media/space.7213acd9a17d34b9e2dd.jpg",
     "static/media/Janindu.jpg": "/insl-frontend/static/media/Janindu.37d036b96c5c01f5e926.jpg",
@@ -33,6 +33,7 @@
     "static/media/8.png": "/insl-frontend/static/media/8.587612f2cfc70ff9f745.png",
     "static/media/Supun Hansika.jpg": "/insl-frontend/static/media/Supun Hansika.d8cdd81bc736170feb12.jpg",
     "static/media/Chanaka.jpg": "/insl-frontend/static/media/Chanaka.5d68fe99f2d121de7ce1.jpg",
+    "static/media/Hustle Story 2022.png": "/insl-frontend/static/media/Hustle Story 2022.8cb5e7c52f630f23c8fd.png",
     "static/media/uva.jpg": "/insl-frontend/static/media/uva.fd40e69b57ff90d72f2d.jpg",
     "static/media/SF-Pro-Display-Semibold.otf": "/insl-frontend/static/media/SF-Pro-Display-Semibold.2e4649dd3a66a64ce00b.otf",
     "static/media/SF-Pro-Display-Bold.otf": "/insl-frontend/static/media/SF-Pro-Display-Bold.0d14364066badfe8accf.otf",
@@ -41,6 +42,7 @@
     "static/media/Himasha Randil.jpg": "/insl-frontend/static/media/Himasha Randil.0d240fbc2d3e14bd838d.jpg",
     "static/media/colombo north.jpg": "/insl-frontend/static/media/colombo north.ad8ca2b5f61cfde99a35.jpg",
     "static/media/Nikini.jpg": "/insl-frontend/static/media/Nikini.bc5225128197fca87eca.jpg",
+    "static/media/Hustle Story 2021.jpg": "/insl-frontend/static/media/Hustle Story 2021.ea798231e8cd62dcc8c2.jpg",
     "static/media/Kasuni.jpg": "/insl-frontend/static/media/Kasuni.fa250aa12e5a9b54da77.jpg",
     "static/media/Srimal.jpg": "/insl-frontend/static/media/Srimal.515c60e6dff6e6aed9c3.jpg",
     "static/media/Senuri.jpg": "/insl-frontend/static/media/Senuri.251e3648c17aa1438a8b.jpg",
@@ -107,12 +109,12 @@
     "static/media/Asset 2.svg": "/insl-frontend/static/media/Asset 2.8185d7a70e0cd9f079f9.svg",
     "static/media/bg-01.svg": "/insl-frontend/static/media/bg-01.830af068da44b0fac2b7.svg",
     "index.html": "/insl-frontend/index.html",
-    "main.58c3c32c.css.map": "/insl-frontend/static/css/main.58c3c32c.css.map",
-    "main.e4d913ed.js.map": "/insl-frontend/static/js/main.e4d913ed.js.map",
+    "main.f84b483f.css.map": "/insl-frontend/static/css/main.f84b483f.css.map",
+    "main.96c3d949.js.map": "/insl-frontend/static/js/main.96c3d949.js.map",
     "787.4eb88c09.chunk.js.map": "/insl-frontend/static/js/787.4eb88c09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58c3c32c.css",
-    "static/js/main.e4d913ed.js"
+    "static/css/main.f84b483f.css",
+    "static/js/main.96c3d949.js"
   ]
 }
