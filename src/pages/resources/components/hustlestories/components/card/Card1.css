@@ -9,14 +9,16 @@
     min-height: 58vh;
 }
 
-.thumb1{
+.thumb-1{
     /* border-radius: 5px; */
     border-radius: 5px;
+    height: 30vh;
 }
 
 .thumb-img{
     width: 100%;
     border-radius: 10px;
+    height: 100%;
 }
 
 .hustle-text-block{

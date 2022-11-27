@@ -1,6 +1,6 @@
 import React from "react";
 import "./Card1.css";
-import Elon from "./img/elon.jpg";
+// import Elon from "./img/elon.jpg";
 import Calender from "./img/ico-calendar.png";
 
 function Card1(props){
@@ -8,7 +8,7 @@ function Card1(props){
         <div className="card1">
 
             <div className="thumb-1">
-                <img src={Elon} className="thumb-img" />
+                <img src={require('./img' + props.image)} className="thumb-img" />
             </div>
 
             <div>

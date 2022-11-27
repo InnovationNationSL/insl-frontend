@@ -28,9 +28,13 @@ function Resources() {
             <button type="button" class={"btn btn-outline-light" + (resourceType === 2 ? " active" : "")} onClick={() => setResourceType(2)}>
               Hustle Stories
             </button>
-            <button type="button" class={"btn btn-outline-light" + (resourceType === 3 ? " active" : "")} onClick={() => setResourceType(3)}>
+
+            <a href="https://in.ieee.lk/blog.html" target="_blank" style={{textDecoration:"none", color:"white"}}> 
+            <button type="button" class={"btn btn-outline-light"}>
               Workshops
             </button>
+            </a>
+
         </div>
       </div>
 
@@ -47,8 +51,6 @@ function Resources() {
         </div>
         : null}
 
-
-      
     
     </div>
   );

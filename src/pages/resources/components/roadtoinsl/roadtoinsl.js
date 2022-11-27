@@ -56,14 +56,20 @@ function Roadtoinsl() {
         <div className="text-center button-pack">
           <div class="btn-group" role="group" aria-label="Basic example">
             <button type="button" class={"btn btn-outline-light" + (roadToINSLday === 1 ? " active" : "")} onClick={() => setRoadToINSLday(1)}>
-              Day 01
+              2022- Day 01
             </button>
             <button type="button" class={"btn btn-outline-light" + (roadToINSLday === 2 ? " active" : "")} onClick={() => setRoadToINSLday(2)}>
-              Day 02
+              2022 - Day 02
             </button>
             <button type="button" class={"btn btn-outline-light" + (roadToINSLday === 3 ? " active" : "")} onClick={() => setRoadToINSLday(3)}>
-              Day 03
+              2022 - Day 03
             </button>
+            
+            <a href="https://in.ieee.lk/blog.html" target="_blank" style={{textDecoration:"none", color:"white"}}> 
+            <button type="button" class={"btn btn-outline-light"}>
+              Previous Content
+            </button>
+            </a>
           </div>
         </div>
 
