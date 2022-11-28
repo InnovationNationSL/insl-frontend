@@ -7,6 +7,8 @@ import "./fonts/SF-Pro-Display-Bold.otf";
 import "./fonts/SF-Pro-Display-Regular.otf";
 import "./fonts/SF-Pro-Display-Semibold.otf";
 
+//to the pcakage.json
+// "homepage": "https://innovationnationsl.github.io/insl-frontend/",
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

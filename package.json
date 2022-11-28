@@ -1,7 +1,8 @@
 {
   "name": "insl-frontend",
   "version": "0.1.0",
-  "homepage": "https://innovationnationsl.github.io/insl-frontend/",
+  "homepage": "http://insl.lk/",
+
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
