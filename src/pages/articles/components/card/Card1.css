@@ -1,0 +1,83 @@
+.card1{
+    padding: 2rem;
+    margin-bottom: 2rem;
+    background: rgb(0,65,41);
+    background: linear-gradient(54deg, rgba(0,65,41,1) 0%, rgba(0,83,75,1) 100%); 
+    padding: 1rem;
+    border-radius: 15px;
+    min-height: 30vh;
+}
+
+.modal-content{
+    background-color: black !important;
+}
+
+.modal-title{
+    color: white !important;
+}
+
+.modal-content{
+    min-height: 100% !important;
+    height: 100px !important;
+}
+.modal-body{
+    color: rgb(255, 255, 255) !important;
+}
+
+.articleContent{
+    margin-bottom: 1rem;
+}
+
+.articleWriter{
+    color: rgb(179, 245, 181);
+}
+
+.btn-close{
+    background-color: aliceblue !important;
+}
+.thumb-1{
+    /* border-radius: 5px; */
+    border-radius: 5px;
+    height: 30vh;
+}
+
+.thumb-img{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.hustle-text-block{
+    margin-top: 1rem;
+    font-family: SF-bold;
+    font-size: 20px;
+    line-height:1.3rem;
+    margin-bottom: 0px;
+    color: white;
+
+}
+
+.calendar-ico{
+    width: 100%;
+    margin-right: 0.5rem;
+}
+
+.hustle-speaker{
+    font-family: SF-regular;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.hustle-text-block-main{
+    margin-top: 1rem;
+}
+.hustle-date{
+    font-family: SF-regular;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.date-section{
+    margin-top: 1rem;
+}

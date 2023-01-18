@@ -9,7 +9,7 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import Navbar from "./components/Navbar/navbar";
 import Team from "./pages/team/team";
 import Provincials from "./pages/provincials/provincials";
-
+import Articles from "./pages/articles/articles";
 const App = () => {
 
   // const [isOpen, setIsOpen] = useState(false);
@@ -49,6 +49,7 @@ const App = () => {
           <Route path="/experts" element={<ExpertsPage />} />
           <Route path="/" element={<Home />} />
           <Route path="/resources" element={<Resources />} />
+          <Route path="/articles" element={<Articles />} />
           <Route path="/team" element={<Team />} />
           <Route path="/provincials" element={<Provincials />} />
 
@@ -57,5 +58,6 @@ const App = () => {
     </div>
   );
 }
+
 
 export default App;

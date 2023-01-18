@@ -96,6 +96,21 @@ const Navbar = ({ toggle }) => {
                 exact="true"
                 offset={0}
               >
+
+
+            <Link to= "/articles" style={{textDecoration:"none", color:"white"}}>ARTICLES</Link>
+              </NavLinks>
+            </NavItem>
+
+            <NavItem>
+              <NavLinks
+                to="/articles"
+                smooth={true}
+                duration={500}  
+                spy={true}
+                exact="true"
+                offset={0}
+              >
                 
                 <Link to= "/resources" style={{textDecoration:"none", color:"white"}}>RESOURCES</Link>
               </NavLinks>

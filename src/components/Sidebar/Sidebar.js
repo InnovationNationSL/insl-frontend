@@ -21,6 +21,7 @@ function Sidebar({ isOpen, toggle }) {
         <SidebarMenu>
           <SidebarLinkR to="/">HOME</SidebarLinkR>
           <SidebarLinkR to="/experts">OUR EXPERTS</SidebarLinkR>
+          <SidebarLinkR to="/articles">ARTICLES</SidebarLinkR>
           <SidebarLinkR to="/resources">RESOURCES</SidebarLinkR>
           <SidebarLinkR to="/team">TEAM</SidebarLinkR>
           <SidebarLinkR to="/provincials">PROVINCIAL COMPETITIONS</SidebarLinkR>
