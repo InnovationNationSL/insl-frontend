@@ -45,7 +45,7 @@ const Articles = () => {
 
             <div className="col-12 my-auto">
                 <div className="d-flex mx-auto row col">
-                    <div className="col-9 col-md-9 d-flex mx-auto my-auto flex-sm-row flex-column justify-content-center">
+                    <div className="col-12 col-md-9 d-flex mx-auto my-auto flex-sm-row flex-column justify-content-center">
                         <Row>
                             {Records.map((record, k) => {
 
