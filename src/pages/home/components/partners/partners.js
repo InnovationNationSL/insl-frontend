@@ -22,7 +22,7 @@ const Partners = () =>{
                             <Row>
                                 {Records.gold.map((record, k) => {
                                     return(
-                                        <Col key={k} xs={12} md={4} lg={12}>
+                                        <Col key={k} xs={12} md={3} lg={3}>
                                             <Card className={"boot-card"}>
                                                 <PartnerCardNational img={record.img} title={record.name} type={record.tag}/>
                                             </Card>

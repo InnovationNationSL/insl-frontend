@@ -1,4 +1,10 @@
-{ "gold":[    
+{ "gold":[ 
+    {
+        "tag": "Organized by",
+        "name": "IEEE Young Profesionals",
+        "img": "/YP SL Logo.png",
+        "link": "https://www.facebook.com/spoonhansika/"
+    },   
     {
         "tag": "National Partner",
         "name": "ICTA",
@@ -15,6 +21,12 @@
         "link": "https://www.facebook.com/spoonhansika/"
     },
     {
+        "tag": "Innovative Partner",
+        "name": "The Embryo",
+        "img": "/slt embryo logo.png",
+        "link": "https://www.facebook.com/spoonhansika/"
+    },
+    {
         "tag": "Silver Partner",
         "name": "WSO2",
         "img": "/wso2.png",
@@ -22,10 +34,35 @@
     },
     {
         "tag": "Bronze Partner",
-        "name": "Creative",
-        "img": "/lseg.png",
+        "name": "Creative Software",
+        "img": "/Creative Software Logo.png",
         "link": "https://www.facebook.com/spoonhansika/"
     },
+    {
+        "tag": "Bronze Partner",
+        "name": "CodeGen",
+        "img": "/codegen.png",
+        "link": "https://www.facebook.com/spoonhansika/"
+    },
+    {
+        "tag": "Knowledge Partner",
+        "name": "UNDP",
+        "img": "/undp.png",
+        "link": "https://www.facebook.com/spoonhansika/"
+    },
+    {
+        "tag": "Knowledge Partner",
+        "name": "Unicorn Factory",
+        "img": "/Unicorn Factory Logo - White.png",
+        "link": "https://www.facebook.com/spoonhansika/"
+    },
+    {
+        "tag": "Knowledge Partner",
+        "name": "Careers 360",
+        "img": "/C360 Logo with Lucky Breaks.png",
+        "link": "https://www.facebook.com/spoonhansika/"
+    },
+
     {
         "tag": "Ecosystem Partner",
         "name": "Hatch",
@@ -33,15 +70,21 @@
         "link": "https://www.facebook.com/spoonhansika/"
     },
     {
-        "tag": "Knowledge Partner",
-        "name": "Careerme",
-        "img": "/lseg.png",
+        "tag": "Ecosystem Partner",
+        "name": "TRACE",
+        "img": "/trace.png",
         "link": "https://www.facebook.com/spoonhansika/"
     },
     {
-        "tag": "Knowledge Partner",
-        "name": "UNDP",
-        "img": "/undp.png",
+        "tag": "Ecosystem Partner",
+        "name": "Ideamart",
+        "img": "/ideaMart-logo 2.png",
+        "link": "https://www.facebook.com/spoonhansika/"
+    },
+    {
+        "tag": "Digital Media Partner",
+        "name": "Arteculate",
+        "img": "/Arteculate.png",
         "link": "https://www.facebook.com/spoonhansika/"
     },
     {
@@ -57,12 +100,55 @@
         "link": "https://www.facebook.com/spoonhansika/"
     },
     {
-        "tag": "Digital Media Partner",
-        "name": "Arteculate",
-        "img": "/Arteculate.png",
+        "tag": "Regional Partner",
+        "name": "Uva Startup Hub",
+        "img": "/Startup Hubs/Uva Startup Hub.jpeg",
+        "link": "https://www.facebook.com/spoonhansika/"
+    },
+    {
+        "tag": "Regional Partner",
+        "name": "Dreamspace Academy",
+        "img": "/Startup Hubs/Dream Space _ Regional Partners/vertical-dsa.png",
+        "link": "https://www.facebook.com/spoonhansika/"
+    },
+    {
+        "tag": "Regional Partner",
+        "name": "Sabaragamuwa Startup Hub",
+        "img": "/Startup Hubs/Sabaragamuwa stratup hub.png",
+        "link": "https://www.facebook.com/spoonhansika/"
+    },
+    {
+        "tag": "Regional Partner",
+        "name": "Central Startup Hub",
+        "img": "/Startup Hubs/Central CSH startup hub/RGB.png",
+        "link": "https://www.facebook.com/spoonhansika/"
+    },
+    {
+        "tag": "Regional Partner",
+        "name": "Wayamba Startup Hub",
+        "img": "/Startup Hubs/Wayamba Startup Hub/Wayamba Startup Hub.png",
+        "link": "https://www.facebook.com/spoonhansika/"
+    },
+    {
+        "tag": "Regional Partner",
+        "name": "North Central Startup Hub",
+        "img": "/Startup Hubs/North Central Startup Hub.jpg",
         "link": "https://www.facebook.com/spoonhansika/"
     }
-    
 
+  ],
+  "regional":[ 
+    {
+        "tag": "Organized by",
+        "name": "IEEE Young Profesionals",
+        "img": "/YP SL Logo.png",
+        "link": "https://www.facebook.com/spoonhansika/"
+    },   
+    {
+        "tag": "National Partner",
+        "name": "ICTA",
+        "img": "/icta.png",
+        "link": "https://www.facebook.com/spoonhansika/"
+    }
   ]
 }
